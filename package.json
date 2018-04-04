@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "bulma-timeline": "^2.0.1",
+    "node-sass": "^4.8.3",
     "nuxt": "^1.4.0",
     "nuxt-bulma-slim": "^0.3.2",
     "sass-loader": "^6.0.7"
