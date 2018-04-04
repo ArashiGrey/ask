@@ -36,7 +36,12 @@ export default {
     quickMessage,
     signupNewsletter,
     myBottom
-  }
+  },
+  head: {
+    script: [
+      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+    ]
+  } 
 }
 </script>
 
