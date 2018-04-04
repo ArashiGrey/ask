@@ -14,9 +14,22 @@ module.exports = {
     ]
   },
   /*
+  ** Global CSS
+  */
+  css: [
+    '~assets/css/style.css',
+    '~/node_modules/bulma-timeline/dist/bulma-timeline.min.css'
+  ],
+  /*
   ** Customize the progress bar color
   */
   loading: { color: '#ac3b61' },
+  /*
+  ** Modules
+  */
+  modules: [
+    'nuxt-bulma-slim'
+  ],
   /*
   ** Build configuration
   */

@@ -13,7 +13,10 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.4.0"
+    "bulma-timeline": "^2.0.1",
+    "nuxt": "^1.4.0",
+    "nuxt-bulma-slim": "^0.3.2",
+    "sass-loader": "^6.0.7"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
