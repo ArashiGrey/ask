@@ -13,10 +13,13 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^4.5.2",
+    "ajv": "^6.4.0",
     "bulma-timeline": "^2.0.1",
     "node-sass": "^4.8.3",
     "nuxt": "^1.4.0",
     "nuxt-bulma-slim": "^0.3.2",
+    "nuxtent": "^1.4.1",
     "sass-loader": "^6.0.7"
   },
   "devDependencies": {
@@ -24,6 +27,10 @@
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.0",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.4.0"
+    "eslint-plugin-vue": "^4.4.0",
+    "immutable": "^3.8.2",
+    "netlify-cms": "^1.4.0",
+    "react": "^16.3.1",
+    "slate": "^0.33.4"
   }
 }
