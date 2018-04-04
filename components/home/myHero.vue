@@ -20,10 +20,13 @@ export default {
 }
 </script>
 <style scoped>
-.hero {
-  background-color: #413E3C;
+.hero.is-fullheight {
+  background-color: #336ca4;
 }
 .hero-body {
+  background-image: url('~/assets/images/heroMarch42017.png');
+  max-width: 80vw;
+  background-repeat: no-repeat;
   padding: 0;
 }
 .big-size {
@@ -40,12 +43,38 @@ h1 {
 }
 .title,
 .subtitle {
+  margin-left: 10vw;
   color: #ac3b61;
   text-shadow: #171412 2px 2px 1px,
                #d9d5d6 0 0 5px;
 }
 .logo {
+  margin-left: 10vw;  
   width: 120px;
   display: inline-block;
+}
+@media screen and (max-width: 1399px) {
+.hero-body {
+  background-image: url('~/assets/images/heroMarch42017x1200.png');
+  max-width: 85vw;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+}
+@media screen and (max-width: 999px) {
+.hero-body {
+  background-image: url('~/assets/images/heroMarch42017x800.png');
+  max-width: 95vw;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+}
+@media screen and (max-width: 500px) {
+.hero-body {
+  background-image: url('~/assets/images/heroMarch42017x400.png');
+  max-width: 95vw;
+  background-repeat: no-repeat;
+  padding: 0;
+}
 }
 </style>
