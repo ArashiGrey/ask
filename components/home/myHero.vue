@@ -24,7 +24,7 @@ export default {
   background-color: #336ca4;
 }
 .hero-body {
-  background-image: url('~/assets/images/heroMarch42017.png');
+  background-image: url('~/assets/images/heroMarch42017-min.png');
   max-width: 80vw;
   background-repeat: no-repeat;
   padding: 0;
@@ -55,7 +55,7 @@ h1 {
 }
 @media screen and (max-width: 1399px) {
 .hero-body {
-  background-image: url('~/assets/images/heroMarch42017x1200.png');
+  background-image: url('~/assets/images/heroMarch42017x1200-min.png');
   max-width: 85vw;
   background-repeat: no-repeat;
   padding: 0;
@@ -63,7 +63,7 @@ h1 {
 }
 @media screen and (max-width: 999px) {
 .hero-body {
-  background-image: url('~/assets/images/heroMarch42017x800.png');
+  background-image: url('~/assets/images/heroMarch42017x800-min.png');
   max-width: 95vw;
   background-repeat: no-repeat;
   padding: 0;
@@ -71,7 +71,7 @@ h1 {
 }
 @media screen and (max-width: 500px) {
 .hero-body {
-  background-image: url('~/assets/images/heroMarch42017x400.png');
+  background-image: url('~/assets/images/heroMarch42017x400-min.png');
   max-width: 95vw;
   background-repeat: no-repeat;
   padding: 0;
