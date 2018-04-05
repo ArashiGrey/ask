@@ -49,6 +49,7 @@ module.exports = {
      ** Modules
      */
     modules: [
+      '@nuxtjs/pwa',
       'nuxt-bulma-slim',
       'nuxtent'
     ],
