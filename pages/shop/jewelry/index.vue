@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import homeHero from '~/components/shop/jewelryHero.vue'
+import jewelryHero from '~/components/shop/jewelryHero.vue'
 
 export default {
   layout: 'others',
