@@ -2,16 +2,32 @@
   <section class="section page">
     <blog-hero/>
     <div class="columns is-centered is-multiline bloglist">
-      <div class="column is-one-third">
-          <ul>
-    <li v-for='post in posts' :key='post'>
-      <nuxt-link :to="post.permalink">{{ post.title }}</nuxt-link>
-    </li>
-</ul>
+      <div class="column is-one-third" v-for='post in posts' :key='post'>
+        
+        <nuxt-link :to="post.permalink">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-square">
+               <img v-if="post.image" v-bind:src="post.image" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <p> {{post.description}} </p>
+              </div>
+              <div class="content">
+                <h2 class="title">{{ post.title }}</h2>
+                <time datetime="2016-1-1">{{ post.date }}</time>
+              </div>
+            </div>
+          </div>
+        </nuxt-link>
+
       </div>
     </div>
   </section>
 </template>
+  
 <script>
 
 import blogHero from '~/components/blog/blogHero.vue'
