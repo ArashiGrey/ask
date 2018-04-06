@@ -38,7 +38,7 @@
 import bagsHero from '~/components/shop/bagsHero.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     bagsHero
   },

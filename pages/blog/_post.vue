@@ -16,7 +16,6 @@
       <script async src="https://just-comments.com/w.js"></script>
       <script src='https://www.google.com/recaptcha/api.js?onload=jcOnRecaptchaLoad&render=explicit' async defer>
       </script>
-
     </section>
   </one-article>
 </template>

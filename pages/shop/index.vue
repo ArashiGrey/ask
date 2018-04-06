@@ -10,7 +10,7 @@ import shopHero from '~/components/shop/shopHero.vue'
 import shopMain from '~/components/shop/shopMain.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     shopHero,
     shopMain

@@ -38,7 +38,7 @@
 import jewelryHero from '~/components/shop/jewelryHero.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     jewelryHero
   },

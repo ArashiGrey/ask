@@ -38,7 +38,7 @@
 import homeHero from '~/components/shop/homeHero.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     homeHero
   },

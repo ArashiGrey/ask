@@ -1,5 +1,6 @@
 <template>
   <section class="newsletter">
+    <form name="contact" method="POST" netlify>
     <div class="columns is-mobile is-centered">
       <div class="column is-three-fifths">
         <div class="card">
@@ -35,6 +36,7 @@
         </div>
       </div>
     </div>
+    </form>
   </section>
 </template>
 

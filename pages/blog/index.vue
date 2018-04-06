@@ -2,8 +2,7 @@
   <section class="section page">
     <blog-hero/>
     <div class="columns is-centered is-multiline bloglist">
-      <div class="column is-one-third" v-for='post in posts' :key='post'>
-        
+      <div class="column is-half-tablet is-one-quarter-widescreen" v-for='post in posts' :key='post'>
         <nuxt-link :to="post.permalink">
           <div class="card">
             <div class="card-image">
@@ -22,7 +21,6 @@
             </div>
           </div>
         </nuxt-link>
-
       </div>
     </div>
   </section>

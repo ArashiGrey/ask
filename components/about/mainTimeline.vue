@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="timey">
     <div class="container">
       <h5 class="title is-size-2">
         Timeline
@@ -381,6 +381,9 @@ export default {
 </script>
 
 <style scoped>
+.timey {
+  margin: 0 5vh;
+}
 .heading {
   text-transform: capitalize;
 }
@@ -389,30 +392,30 @@ export default {
 }
 .timeline {
   margin: 2vh 0;
-  color: #413E3C;
+  color: #413e3c;
 }
 .tag.is-medium.is-pink {
-  background-color: #AC3B61;
+  background-color: #ac3b61;
   color: #fefcfb;
 }
 .tag {
   background-color: transparent;
 }
 .timeline-marker.blue {
-  background-color: #336CA4;
+  background-color: #336ca4;
 }
 .tag.blue {
   height: 50px;
   width: 50px;
   left: -25px;
-  background-color: #336CA4;
+  background-color: #336ca4;
 }
 .timeline-header.blue {
-  background-color: #336CA4;
+  background-color: #336ca4;
   color: #fefcfb;
 }
 .tag.date {
-  background-color: #336CA4;
+  background-color: #336ca4;
   color: #fefcfb;
 }
 </style>

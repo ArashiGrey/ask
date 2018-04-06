@@ -39,7 +39,7 @@
 import scarfsHero from '~/components/shop/scarfsHero.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     scarfsHero
   },

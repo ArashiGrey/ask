@@ -38,7 +38,7 @@
 import beltsHero from '~/components/shop/beltsHero.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     beltsHero
   },

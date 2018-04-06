@@ -38,7 +38,7 @@
 import hairHero from '~/components/shop/hairHero.vue'
 
 export default {
-  layout: 'others',
+  layout: 'defaultLayout',
   components: {
     hairHero
   },
