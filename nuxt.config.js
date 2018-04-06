@@ -53,6 +53,10 @@ module.exports = {
       'nuxt-bulma-slim',
       'nuxtent'
     ],
+    plugins: [
+      // ssr: false to only include it on client-side
+      { src: '~/plugins/vee-validate.js' }
+    ],
     /*
      ** Customize the progress bar color
      */

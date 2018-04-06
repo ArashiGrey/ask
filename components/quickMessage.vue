@@ -13,13 +13,17 @@
               <div class="card-content">
                 <div class="content">
                   <div class="field">
-                    <label for="name" class="label">Title</label>
-                    <input class="input" type="text" name="title" placeholder="Title" v-model="form.title" />
+                    <label for="name" class="label">Name</label>
+                    <input class="input" type="text" name="title" placeholder="Name" v-model="form.name" />
                   </div>
-                  <div class="field">
-                    <label for="email" class="label">Email</label>
-                    <input class="input" type="email" name="email" placeholder="Email" v-model="form.email" />
-                  </div>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <p class="control">
+                    <input name="email" v-model="form.email" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }"
+                      type="email" placeholder="Email">
+                    <span v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</span>
+                  </p>
+                </div>
                   <div class="field">
                     <label for="message" class="label">Message</label>
                     <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6" v-model="form.message"></textarea>
@@ -38,21 +42,22 @@
 </template>
 
 <script>
+import VeeValidate from 'vee-validate'
 export default {
   name: 'quickMessage',
   data () {
     return {
       status: 0,
-      form: { title: '', email: '', message: '' }
+      form: { name: '', email: '', message: '' }
     }
   },
   methods: {
     send () {
-      if (this.form.title.length && this.form.email.length && this.form.message.length) {
+      if (this.form.name.length && this.form.email.length && this.form.message.length) {
         this.status = 1
         this.$axios.post('http://formspree.io/hello@askcreative.space', this.form).then((res) => {
           this.status = 2
-          this.form.title = ''
+          this.form.name = ''
           this.form.email = ''
           this.form.message = ''
         })
