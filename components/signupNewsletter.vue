@@ -4,18 +4,24 @@
       <div class="column is-three-fifths">
         <div class="card">
           <div class="card-header">
-            <h2 class="title">  
+            <h2 class="title">
               Subscribe to my Newsletter
-              </h2>
-              </div>
-              <div class="card-content">
-              <h3 class="subtitle">
+            </h2>
+          </div>
+          <div class="card-content">
+            <h3 class="subtitle">
               &amp; receive occasional updates
-           </h3>
+            </h3>
           </div>
           <div class="card-content">
             <div class="content">
-              <form @submit.prevent="validateBeforeSubmit" name="contact" method="POST" netlify>
+              <form @submit.prevent="validateForm" name="subscribe" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
+                <input type="hidden" name="form-name" value="contact" />
+                <p class="is-hidden">
+                  <label>Don’t fill this out:
+                    <input name="bot-field">
+                  </label>
+                </p>
                 <div class="field">
                   <label class="label">Name</label>
                   <p class="control">
@@ -51,7 +57,8 @@
                   </div>
                 </div>
                 <p>
-                  <button class="button is-medium is-pink" type="submit">Send</button>
+                  <button class="button is-medium is-pink" type="submit" value="Submit">
+                    Send</button>
                 </p>
               </form>
             </div>
@@ -67,7 +74,18 @@
 import VeeValidate from 'vee-validate'
 
 export default {
-  name: 'signupNewletter'
+  name: 'signupNewletter',
+  methods: {
+    validateForm() {
+        this.$validator.validateAll().then(() => {
+
+        if (!this.errors.any()) {
+          alert('woo no errors');
+          // call form submission logic
+        }
+      })
+    }
+  }
 }
 </script>
 
