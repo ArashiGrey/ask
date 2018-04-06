@@ -8,11 +8,6 @@
             <h2 class="title">
               Subscribe to my Newsletter
             </h2>
-            <div class="success" v-if="status === 2">
-              <div class="close" @click="status = 0">X
-              </div>
-              Thank you very much for your subscription to my newsletter.
-            </div>
             <p class="subtitle">
               &amp; receive occasional updates
             </p>
@@ -42,25 +37,7 @@
 
 <script>
 export default {
-  name: 'signupNewletter',
-  data () {
-    return {
-      status: 0,
-      form: { title: '', email: '' }
-    }
-  },
-  methods: {
-    send () {
-      if (this.form.title.length && this.form.email.length) {
-        this.status = 1
-        this.$axios.post('http://formspree.io/hello@askcreative.space', this.form).then((res) => {
-          this.status = 2
-          this.form.title = ''
-          this.form.email = ''
-        })
-      }
-    }
-  }
+  name: 'signupNewletter'
 }
 </script>
 
