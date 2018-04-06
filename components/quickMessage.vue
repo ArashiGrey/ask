@@ -67,28 +67,28 @@
 </script>
 
 <style scoped>
-  .message {
-    margin: 5vh;
-    background-color: transparent;
-  }
-
-  .card {
-    background-color: #fefcfb;
-    box-shadow: none;
-    max-width: 100%;
-    position: relative;
-  }
-
-  .textarea,
-  .input {
-    border: 2px solid rgb(217, 213, 214);
-    box-shadow: inset 0 1px 2px rgba(217, 213, 314, 0.1);
-    background-color: #fefcfb;
-  }
-
-  .is-pink {
-    background-color: #ac3b61;
-    color: #fefcfb;
-  }
-
+.message {
+  margin: 5vh;
+  background-color: transparent;
+}
+.card {
+  background-color: #fefcfb;
+  box-shadow: none;
+  max-width: 100%;
+  position: relative;
+}
+.textarea,
+.input {
+  border: 2px solid rgb(217, 213, 214);
+  box-shadow: inset 0 1px 2px rgba(217, 213, 314, 0.1);
+  background-color: #fefcfb;
+}
+.is-pink {
+  background-color: #ac3b61;
+  color: #fefcfb;
+}
+.is-danger {
+  background-color: #f2f1f1;
+  color: #c6455c;
+}
 </style>

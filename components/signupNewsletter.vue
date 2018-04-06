@@ -121,4 +121,8 @@ a {
   text-decoration-color: #ac3b61;
   font-style: italic;
 }
+.is-danger {
+  background-color: #f2f1f1;
+  color: #c6455c;
+}
 </style>
