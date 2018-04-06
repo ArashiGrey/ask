@@ -5,31 +5,40 @@
         <div class="card">
           <div class="card-content">
             <h2 class="title">Quick Message</h2>
-              <div class="success" v-if="status === 2">
-                <div class="close" @click="status = 0">X
-                </div>
-                Message sent.
-              </div>
-              <div class="card-content">
-                <div class="content">
+            <div class="card-content">
+              <div class="content">
+                <form @submit.prevent="validateForm" name="quick" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
+                  <input type="hidden" name="form-name" value="contact" />
+                  <p class="is-hidden">
+                    <label>Don’t fill this out:
+                      <input name="bot-field">
+                    </label>
+                  </p>
                   <div class="field">
-                    <label for="name" class="label">Title</label>
-                    <input class="input" type="text" name="title" placeholder="Title" v-model="form.title" />
+                    <label class="label">Name</label>
+                    <p class="control">
+                      <input name="name" v-model="name" :class="{'input': true}" type="text" placeholder="Name">
+                    </p>
                   </div>
                   <div class="field">
-                    <label for="email" class="label">Email</label>
-                    <input class="input" type="email" name="email" placeholder="Email" v-model="form.email" />
+                    <label class="label">Email</label>
+                    <p class="control">
+                      <input name="email" v-model="email" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }"
+                        type="text" placeholder="Email">
+                      <span v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</span>
+                    </p>
                   </div>
                   <div class="field">
                     <label for="message" class="label">Message</label>
-                    <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6" v-model="form.message"></textarea>
+                    <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6" v-model="message"></textarea>
                   </div>
-                  <div class="field is-grouped">
-                    <button type="button" v-if="status === 1">Please wait.</button>
-                    <button class="button is-medium is-pink" type="button" v-else @click="send">Submit</button>
-                  </div>
-                </div>
+                  <p>
+                    <button class="button is-medium is-pink" type="submit" value="Submit">
+                      Send</button>
+                  </p>
+                </form>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -38,28 +47,23 @@
 </template>
 
 <script>
-export default {
-  name: 'quickMessage',
-  data () {
-    return {
-      status: 0,
-      form: { title: '', email: '', message: '' }
-    }
-  },
-  methods: {
-    send () {
-      if (this.form.title.length && this.form.email.length && this.form.message.length) {
-        this.status = 1
-        this.$axios.post('http://formspree.io/hello@askcreative.space', this.form).then((res) => {
-          this.status = 2
-          this.form.title = ''
-          this.form.email = ''
-          this.form.message = ''
+  import VeeValidate from 'vee-validate'
+
+  export default {
+    name: 'quickMessage',
+    methods: {
+      validateForm() {
+        this.$validator.validateAll().then(() => {
+
+          if (!this.errors.any()) {
+            alert('woo no errors');
+            // call form submission logic
+          }
         })
       }
     }
   }
-}
+
 </script>
 
 <style scoped>
@@ -68,30 +72,10 @@ export default {
   background-color: transparent;
 }
 .card {
-	background-color: #fefcfb;
-	box-shadow: none;
-	max-width: 100%;
-	position: relative;
-}
-.success {
-  color: #fefcfb;
-  background-color: #3e9523;
-  border-radius: 5px;
-  padding: 20px 15px;
-  margin-bottom: 30px;
-}
-.close {
-  cursor: pointer;
-  color: #fefcfb;
-  border: 1px solid #fefcfb;
-  width: 24px;
-  height: 24px;
-  float: right;
-  border-radius: 50%;
-  text-align: center;
-  font-weight: 300;
-  line-height: 22px;
-  background-color: transparent;
+  background-color: #fefcfb;
+  box-shadow: none;
+  max-width: 100%;
+  position: relative;
 }
 .textarea,
 .input {
@@ -103,5 +87,8 @@ export default {
   background-color: #ac3b61;
   color: #fefcfb;
 }
+.is-danger {
+  background-color: #f2f1f1;
+  color: #c6455c;
+}
 </style>
-  
