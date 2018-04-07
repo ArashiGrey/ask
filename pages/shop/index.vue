@@ -18,7 +18,7 @@ export default {
   scrollToTop: true,
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Shop',
+      title: 'A.S.K.c Shop',
       meta: [
         { hid: 'description', name: 'description', content: 'A place to buy all things Amy Storm Kosman creative.' }
       ]

@@ -44,7 +44,7 @@ export default {
   },
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Hair Accessories',
+      title: 'A.S.K.c Hair Accessories',
       meta: [
         { hid: 'description', name: 'description', content: 'Work in progress' }
       ]

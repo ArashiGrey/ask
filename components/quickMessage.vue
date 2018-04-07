@@ -7,8 +7,8 @@
             <h2 class="title">Quick Message</h2>
             <div class="card-content">
               <div class="content">
-                <form @submit.prevent="validateForm" name="quick" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
-                  <input type="hidden" name="form-name" value="contact" />
+                <form name="message" @submit.prevent="validateBeforeSubmit" ref="message" netlify-honeypot="bot-field" method="POST" action="successmessage" netlify>
+                  <input type="hidden" name="form-name" value="message" />
                   <p class="is-hidden">
                     <label>Don’t fill this out:
                       <input name="bot-field">
@@ -33,8 +33,8 @@
                     <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6" v-model="message"></textarea>
                   </div>
                   <p>
-                    <button class="button is-medium is-pink" type="submit" value="Submit">
-                      Send</button>
+                  <button class="button is-medium is-pink" type="submit" value="submit" :disabled="errors.any()">
+                    Send</button>
                   </p>
                 </form>
               </div>
@@ -52,18 +52,16 @@
   export default {
     name: 'quickMessage',
     methods: {
-      validateForm() {
-        this.$validator.validateAll().then(() => {
-
-          if (!this.errors.any()) {
-            alert('woo no errors');
-            // call form submission logic
-          }
-        })
-      }
+      validateBeforeSubmit: function(event) {
+    	  var self = this
+        this.$validator.validateAll().then(function(result) {
+          if (!result) return
+          // submit when successful
+          self.$refs.message.submit()
+      })
     }
   }
-
+}
 </script>
 
 <style scoped>
