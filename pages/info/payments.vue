@@ -69,7 +69,7 @@ import piecePaper from '~/components/info/piecePaper.vue'
 export default {
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Payment Policy',
+      title: 'A.S.K.c Payment Policy',
       meta: [
         { hid: 'description', name: 'description', content: 'Amy Storm Kosman creative Payment Policy, how to pay, and how that payment is processed.' }
       ]

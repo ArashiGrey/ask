@@ -44,7 +44,7 @@ export default {
   },
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Home Decor',
+      title: 'A.S.K.c Home Decor',
       meta: [
         { hid: 'description', name: 'description', content: 'Work in progress' }
       ]

@@ -211,7 +211,7 @@ import piecePaper from '~/components/info/piecePaper.vue'
 export default {
   head () {
     return {
-      title: 'Amy Storm Kosman creative - FAQ',
+      title: 'A.S.K.c FAQ',
       meta: [
         { hid: 'description', name: 'description', content: 'Amy Storm Kosman creative general quaestions and answers and how to care for items.' }
       ]

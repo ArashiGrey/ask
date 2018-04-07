@@ -15,8 +15,8 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <form @submit.prevent="validateForm" name="subscribe" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
-                <input type="hidden" name="form-name" value="contact" />
+              <form name="subscribe" @submit.prevent="validateBeforeSubmit" ref="subscribe" netlify-honeypot="bot-field" method="POST" action="/successnews" netlify>
+                <input type="hidden" name="form-name" value="subscribe" />
                 <p class="is-hidden">
                   <label>Don’t fill this out:
                     <input name="bot-field">
@@ -57,7 +57,7 @@
                   </div>
                 </div>
                 <p>
-                  <button class="button is-medium is-pink" type="submit" value="Submit">
+                  <button class="button is-medium is-pink" type="submit" value="submit" :disabled="errors.any()">
                     Send</button>
                 </p>
               </form>
@@ -69,20 +69,18 @@
   </section>
 </template>
 
-
 <script>
 import VeeValidate from 'vee-validate'
 
 export default {
-  name: 'signupNewletter',
+  name: 'signupNewsletter',
   methods: {
-    validateForm() {
-        this.$validator.validateAll().then(() => {
-
-        if (!this.errors.any()) {
-          alert('woo no errors');
-          // call form submission logic
-        }
+    validateBeforeSubmit: function(event) {
+    	var self = this
+      this.$validator.validateAll().then(function(result) {
+        if (!result) return
+        // submit when successful
+        self.$refs.subscribe.submit()
       })
     }
   }

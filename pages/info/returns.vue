@@ -160,7 +160,7 @@ import piecePaper from '~/components/info/piecePaper.vue'
 export default {
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Returns',
+      title: 'A.S.K.c Returns',
       meta: [
         { hid: 'description', name: 'description', content: 'Information on how to return, exchange, or cancel an order from Amy Storm Kosman creative.' }
       ]

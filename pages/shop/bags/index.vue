@@ -44,7 +44,7 @@ export default {
   },
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Bags',
+      title: 'A.S.K.c Bags',
       meta: [
         { hid: 'description', name: 'description', content: 'Work in progress' }
       ]
