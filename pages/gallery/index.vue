@@ -77,7 +77,7 @@ export default {
   layout: 'defaultLayout',
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Gallery',
+      title: 'A.S.K.c Gallery',
       meta: [
         { hid: 'description', name: 'description', content: 'Work in progress' }
       ]

@@ -24,7 +24,7 @@ export default {
   scrollToTop: true,
   head () {
     return {
-      title: 'Amy Storm Kosman creative - About',
+      title: 'A.S.K.c About',
       meta: [
         { hid: 'description', name: 'description', content: 'Information about Amy, and Amy Storm Kosman creative. A little history a little story, and a few pictures.' }
       ]

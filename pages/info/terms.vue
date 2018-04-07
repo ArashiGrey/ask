@@ -414,7 +414,7 @@
   export default {
     head () {
       return {
-        title: 'Amy Storm Kosman creative - Terms and Conditions',
+        title: 'A.S.K.c Terms and Conditions',
         meta: [{
           hid: 'description',
           name: 'description',

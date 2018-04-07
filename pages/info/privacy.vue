@@ -191,7 +191,7 @@ import piecePaper from '~/components/info/piecePaper.vue'
 export default {
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Privacy Policy',
+      title: 'A.S.K.c Privacy Policy',
       meta: [
         { hid: 'description', name: 'description', content: 'Amy Storm Kosman creative Privacy Policy and privacy information.' }
       ]

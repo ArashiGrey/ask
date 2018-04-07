@@ -331,7 +331,7 @@ import piecePaper from '~/components/info/piecePaper.vue'
 export default {
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Shipping',
+      title: 'A.S.K.c Shipping',
       meta: [
         { hid: 'description', name: 'description', content: 'Amy Storm Kosman creative Shipping rates and information.' }
       ]

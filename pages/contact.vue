@@ -1,4 +1,3 @@
-
 <template>
   <section class="pageStuff">
     <contact-hero/>
@@ -24,7 +23,7 @@ export default {
   },
   head () {
     return {
-      title: 'Amy Storm Kosman creative - Contact',
+      title: 'A.S.K.c Contact',
       meta: [
         { hid: 'description', name: 'description', content: 'All the information needed to contact Amy and Amy Storm Kosman creative.' }
       ]
