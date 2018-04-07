@@ -15,7 +15,7 @@
           </div>
           <div class="card-content">
             <div class="content">
-              <form name="subscribe" @submit.prevent="validateBeforeSubmit" ref="subscribe" netlify-honeypot="bot-field" method="POST" action="thank-you" netlify>
+              <form name="subscribe" @submit.prevent="validateBeforeSubmit" ref="subscribe" netlify-honeypot="bot-field" method="POST" action="/successnews" netlify>
                 <input type="hidden" name="form-name" value="subscribe" />
                 <p class="is-hidden">
                   <label>Don’t fill this out:
