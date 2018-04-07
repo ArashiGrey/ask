@@ -8,7 +8,7 @@
             <div class="card-content">
               <div class="content">
                 <form name="message" @submit.prevent="validateBeforeSubmit" ref="message" netlify-honeypot="bot-field" method="POST" action="successmessage" netlify>
-                  <input type="hidden" name="form-name" value="message" />
+                  <input type="hidden" name="message" value="message" />
                   <p class="is-hidden">
                     <label>Don’t fill this out:
                       <input name="bot-field">
