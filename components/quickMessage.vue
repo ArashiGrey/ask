@@ -56,7 +56,7 @@
         this.$validator.validateAll().then(() => {
 
           if (!this.errors.any()) {
-            alert('woo no errors');
+
             // call form submission logic
           }
         })
