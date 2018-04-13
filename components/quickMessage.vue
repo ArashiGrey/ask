@@ -7,7 +7,7 @@
             <h2 class="title">Quick Message</h2>
             <div class="card-content">
               <div class="content">
-                <form name="message" @submit.prevent="validateBeforeSubmit" ref="message" netlify-honeypot="bot-field" method="POST" action="successmessage" netlify>
+                <form name="message" ref="message" netlify-honeypot="bot-field" method="POST" action="successmessage" netlify>
                   <p class="is-hidden">
                     <label>Don’t fill this out:
                       <input name="bot-field">
@@ -22,9 +22,8 @@
                   <div class="field">
                     <label class="label">Email</label>
                     <p class="control">
-                      <input name="email" v-model="email" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }"
-                        type="text" placeholder="Email">
-                      <span v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</span>
+                      <input name="email" v-model="email" class='input' type="text" placeholder="Email">
+                        If you would like a reply to your message.
                     </p>
                   </div>
                   <div class="field">
@@ -32,7 +31,7 @@
                     <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6" v-model="message"></textarea>
                   </div>
                   <p>
-                  <button class="button is-medium is-pink" type="submit" value="submit" :disabled="errors.any()">
+                  <button class="button is-medium is-pink" type="submit" value="submit">
                     Send</button>
                   </p>
                 </form>
@@ -46,20 +45,8 @@
 </template>
 
 <script>
-  import VeeValidate from 'vee-validate'
-
   export default {
-    name: 'quickMessage',
-    methods: {
-      validateBeforeSubmit: function(event) {
-    	  var self = this
-        this.$validator.validateAll().then(function(result) {
-          if (!result) return
-          // submit when successful
-          self.$refs.message.submit()
-      })
-    }
-  }
+    name: 'quickMessage'
 }
 </script>
 
@@ -83,9 +70,5 @@
 .is-pink {
   background-color: #ac3b61;
   color: #fefcfb;
-}
-.is-danger {
-  background-color: #f2f1f1;
-  color: #c6455c;
 }
 </style>
