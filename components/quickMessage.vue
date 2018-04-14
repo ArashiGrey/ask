@@ -7,7 +7,7 @@
             <h2 class="title">Quick Message</h2>
             <div class="card-content">
               <div class="content">
-                <form name="message" ref="message" netlify-honeypot="bot-field" method="POST" action="successmessage" netlify>
+                <form name="message" form-name="message" ref="message" netlify-honeypot="bot-field" method="POST" action="successmessage" netlify>
                   <p class="is-hidden">
                     <label>Don’t fill this out:
                       <input name="bot-field">

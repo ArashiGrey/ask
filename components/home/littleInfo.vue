@@ -44,11 +44,16 @@ export default {
   margin-top: -100px;
 }
 .is-one-third{
-  background-color: #D9D5D6;
+  background-color: #d9d5d6;
   text-align: center;
   margin: 3rem;
 }
 h3 {
   margin: 10px;
+}
+@media (max-width: 799px){
+  .downward {
+    margin-top: -50px;
+  }
 }
 </style>

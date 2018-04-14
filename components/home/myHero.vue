@@ -2,7 +2,7 @@
   <div class="hero is-fullheight">
   <div class="hero-body">
     <div class="container">
-      <img class="logo" src="~assets/images/logo.png" alt="A cat peeking through a capital A.">
+      <img class="logo" src="~assets/img/logo.png" alt="A cat peeking through a capital A.">
       <h1 class="title big-size">
         Amy Storm Kosman
       </h1>
@@ -23,10 +23,14 @@ export default {
 .hero.is-fullheight {
   background-color: #336ca4;
 }
+.heroimage {
+  max-height: 100vh;
+}
 .hero-body {
-  background-image: url('~/assets/images/heroMarch42017-min.png');
-  max-width: 80vw;
+  background-image: url('https://res.cloudinary.com/askcreative-space/image/upload/v1523607303/Optimized-heroApril132017.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
+  max-width: 85vw;
   padding: 0;
 }
 .big-size {
@@ -52,29 +56,5 @@ h1 {
   margin-left: 10vw;  
   width: 120px;
   display: inline-block;
-}
-@media screen and (max-width: 1399px) {
-.hero-body {
-  background-image: url('~/assets/images/heroMarch42017x1200-min.png');
-  max-width: 85vw;
-  background-repeat: no-repeat;
-  padding: 0;
-}
-}
-@media screen and (max-width: 999px) {
-.hero-body {
-  background-image: url('~/assets/images/heroMarch42017x800-min.png');
-  max-width: 95vw;
-  background-repeat: no-repeat;
-  padding: 0;
-}
-}
-@media screen and (max-width: 500px) {
-.hero-body {
-  background-image: url('~/assets/images/heroMarch42017x400-min.png');
-  max-width: 95vw;
-  background-repeat: no-repeat;
-  padding: 0;
-}
 }
 </style>

@@ -23,7 +23,7 @@
       <div class="tile is-3 is-vertical is-parent">
         <div class="tile is-child box hello">
           <Card url="/about">
-            <img src="~assets/images/frame.png" alt="About" slot="image"/>
+            <img src="~assets/img/frame.png" alt="About" slot="image"/>
               <h2>About</h2>
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -35,7 +35,7 @@
         </div>
         <div class="tile is-child box hello">
           <card url="/shop">
-            <img src="~assets/images/frame.png" alt="Shop" slot="image"/>
+            <img src="~assets/img/frame.png" alt="Shop" slot="image"/>
               Shop
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -50,7 +50,7 @@
         </div>
         <div class="tile is-child box hello">
           <card url="/gallery">
-            <img src="~assets/images/frame.png" alt="Gallery" slot="image"/>
+            <img src="~assets/img/frame.png" alt="Gallery" slot="image"/>
               Gallery
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -68,7 +68,7 @@
       <div class="tile is-3 is-vertical is-parent">
         <div class="tile is-child box hello">
           <card url="/blog">
-            <img src="~assets/images/frame.png" alt="Blog" slot="image"/>
+            <img src="~assets/img/frame.png" alt="Blog" slot="image"/>
               Blog
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -81,7 +81,7 @@
         </div>
         <div class="tile is-child box hello">
           <card url="/contact">
-            <img src="~assets/images/frame.png" alt="Contact" slot="image"/>
+            <img src="~assets/img/frame.png" alt="Contact" slot="image"/>
               Contact
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -136,35 +136,35 @@ export default {
 .kitty0:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo-pattern.png);
+  url(~assets/img/logo-pattern.png);
   background-size: 5%;
   color: transparent;
 } 
 .kitty1:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo1.png);
+  url(~assets/img/logo1.png);
   background-size: 85%;
   color: transparent;
 } 
 .kitty2:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo2.png);
+  url(~assets/img/logo2.png);
   background-size: 55%;
   color: transparent;
 }
 .kitty3:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo3.png);
+  url(~assets/img/logo3.png);
   background-size: 55%;
   color: transparent;
 }
 .kitty4:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo4.png);
+  url(~assets/img/logo4.png);
   background-size: 85%;
   color: transparent;
 }

@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="columns is-multiline is-mobile is-centered">
       <div class="column is-12">
-        <img class="logo" src="~assets/images/logo.png" alt="A cat peeking through a capital A.">
+        <img class="logo" src="~assets/img/logo.png" alt="A cat peeking through a capital A.">
         <h5> Amy Storm Kosman creative</h5>
         <hr class='low'>
       </div>

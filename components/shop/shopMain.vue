@@ -15,7 +15,7 @@
         <div class="tile is-3 is-vertical is-parent">
           <div class="tile is-child box hello">
             <Card url="/shop/scarfs">
-              <img src="~assets/images/frame.png" alt="About" slot="image" />
+              <img src="~assets/img/frame.png" alt="About" slot="image" />
               <h2>
                 Scarfs
               </h2>
@@ -25,7 +25,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/home">
-              <img src="~assets/images/frame.png" alt="Shop" slot="image" />
+              <img src="~assets/img/frame.png" alt="Shop" slot="image" />
               <h2>
                 Home
               </h2>
@@ -39,7 +39,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/bags">
-              <img src="~assets/images/frame.png" alt="Gallery" slot="image" />
+              <img src="~assets/img/frame.png" alt="Gallery" slot="image" />
               <h2>
                 Bags
               </h2>
@@ -49,7 +49,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/jewelry">
-              <img src="~assets/images/frame.png" alt="Shop" slot="image" />
+              <img src="~assets/img/frame.png" alt="Shop" slot="image" />
               <h2>
                 Jewelry
               </h2>
@@ -59,7 +59,7 @@
         <div class="tile is-3 is-vertical is-parent">
           <div class="tile is-child box hello">
             <card url="/shop/hair">
-              <img src="~assets/images/frame.png" alt="Blog" slot="image" />
+              <img src="~assets/img/frame.png" alt="Blog" slot="image" />
               <h2>
                 Hair
               </h2>
@@ -69,7 +69,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/belts">
-              <img src="~assets/images/frame.png" alt="Contact" slot="image" />
+              <img src="~assets/img/frame.png" alt="Contact" slot="image" />
               <h2>
                 Belts
               </h2>
@@ -138,35 +138,35 @@ h2 {
 .kitty0:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo-pattern.png);
+  url(~assets/img/logo-pattern.png);
   background-size: 13%;
   color: transparent;
 } 
 .kitty1:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo1.png);
+  url(~assets/img/logo1.png);
   background-size: 85%;
   color: transparent;
 } 
 .kitty2:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo2.png);
+  url(~assets/img/logo2.png);
   background-size: 6%;
   color: transparent;
 }
 .kitty3:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo3.png);
+  url(~assets/img/logo3.png);
   background-size: 55%;
   color: transparent;
 }
 .kitty4:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/images/logo4.png);
+  url(~assets/img/logo4.png);
   background-size: 85%;
   color: transparent;
 }
