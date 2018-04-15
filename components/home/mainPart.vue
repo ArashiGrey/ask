@@ -125,6 +125,9 @@ export default {
   text-align: center;
   margin: 3rem;
 }
+img {
+  min-height: 200px;
+}
 .hello:hover {
   transition: background-color 1s ease-in-out;
   background-color:  rgba(108, 7, 41, 0.5);

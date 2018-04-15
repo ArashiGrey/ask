@@ -1,31 +1,46 @@
 <template>
   <one-article>
-    <section class="section page">
-      <div class="content">
-        <div>
-          <h1 class="title">{{ post.title }}</h1>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <div v-html="post.body" />
-          </div>
+    <section class="hero is-bold is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-size-1">
+            {{ post.title }}
+          </h1>
         </div>
       </div>
-      <div class="just-comments" data-allowguests="true" data-recaptcha="true" data-apikey="a0ed5c59-7970-4b05-aa80-3c6eb7ed198f">
+    </section>
+      <div class="columns is-mobile">
+        <div class="column auto">
+
+        </div>
+        <div class="column is-four-fifths-mobile is-three-fifths-tablet">
+
+            <div v-html="post.body" />
+          </div>
+         <div class="column auto">
+        </div>
+       </div>
+             <div class="columns is-mobile">
+        <div class="column auto">
+        </div>
+        <div class="column is-four-fifths-mobile is-three-fifths-tablet just-comments" data-allowguests="true" data-recaptcha="true" data-apikey="a0ed5c59-7970-4b05-aa80-3c6eb7ed198f">
       </div>
       <script async src="https://just-comments.com/w.js"></script>
       <script src='https://www.google.com/recaptcha/api.js?onload=jcOnRecaptchaLoad&render=explicit' async defer>
       </script>
-    </section>
+         <div class="column auto">
+        </div>
+      </div>
   </one-article>
 </template>
+
 <script>
 import oneArticle from '~/components/blog/oneArticle.vue'
 
 export default {
     components: {
-    oneArticle
-  },
+    oneArticle,
+    },
   async asyncData ({ app, route }) {
     return {
       post: await app.$content('/').get(route.path)
