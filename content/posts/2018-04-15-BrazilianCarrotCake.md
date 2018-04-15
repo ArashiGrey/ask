@@ -12,7 +12,7 @@ tags:
 - chocolate
 - carrots
 ---
-# Bolo de Cenoura - Brazilian Carrot Cake
+# Bolo de Cenoura (Brazilian Carrot Cake)
 
 Simply Ina posted a recipe for this awesome carrot cake [here](https://simplyina.com/brazilian-carrot-cake-bolo-de-cenoura-traditional-recipe/)
 
@@ -61,6 +61,8 @@ I made a couple modifications. I don't have a blender so I grated the carrots. I
     for additional 4-5 minutes, or until the mixture thickens.
  3. Let the sauce to cool slightly, then spread over the cooled cake
     with a spatula.
- **4. Slice and serve.**
-[](https://res.cloudinary.com/askcreative-space/image/upload/v1523815188/Optimized-braziliancarrotcake2_iqnrad.jpg)
-[](https://res.cloudinary.com/askcreative-space/image/upload/v1523815266/Optimized-braziliancarrotcake1_b5o7sf.jpg)
+ 4. Slice and serve.
+
+![picture of cake from above](https://res.cloudinary.com/askcreative-space/image/upload/v1523815188/Optimized-braziliancarrotcake2_iqnrad.jpg)
+
+![close up picture of cake slice](https://res.cloudinary.com/askcreative-space/image/upload/v1523815266/Optimized-braziliancarrotcake1_b5o7sf.jpg)

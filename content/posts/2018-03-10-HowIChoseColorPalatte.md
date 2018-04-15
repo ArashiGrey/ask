@@ -11,10 +11,9 @@ tags:
 - colors
 - design
 ---
-
 # How I chose a Color Palatte / Color Scheme
 
-Environmental concerns are a core value of my company. So my website should feature green? I went to [Awwwards](https://www.awwwards.com) and began my search for inspiration. I don't care much for green. Maybe my favorite colors. Grey and lavender. I envisioned my website to be pretty and energetic. I want my brand to feel mature and natural. These were some of my favorite sites and their colors.
+Environmental concerns are a core value of my company. So my website should feature green? I went to [Awwwards](https://www.awwwards.com) and began my search for inspiration. I don't care much for green. Maybe my favorite colors. Grey and lavender. I envisioned my website to be pretty and energetic. I want my brand to feel mature and natural. These were some of my favorite sites and their colors.  
 
 ## Finding Inspiration
 
@@ -23,7 +22,7 @@ Environmental concerns are a core value of my company. So my website should feat
 
 ### [Color Theory](http://www.colortheory.ca)
 ![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607429/Screenshot-2018-3-9_Color_Theory_gltixa.jpg)
-
+ 
 ### [Wijn Doekje](http://www.wijndoekje.nl)
 ![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607467/Screenshot-2018-3-9_Wijndoekje_-_Voor_een_lach_zonder_wijnaanslag_clseiq.png)
 
@@ -35,18 +34,21 @@ Environmental concerns are a core value of my company. So my website should feat
 
 ### [October](https://oct.co/essays)
 ![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607440/Screenshot-2018-3-9_Essays_on_Beer_qu0w9s.jpg)
-
+ 
 ### [NJI3](https://nji3.com/ivana-pi)
 ![](https://cdn.tipe.io/5a9e71aed747450013dee27d/423e6fb8-3610-46b3-aeb6-c2c0815f8ddb)
-
+  
 ### [Bashful Creative Agency](http://bashful.com/au)
 ![](https://cdn.tipe.io/5a9e71aed747450013dee27d/87d56bfa-1f84-487a-a6eb-18d872a0b9aa)
-
+  
 I loved the dark backgrounds. Especially the dark browns. Color theory in web design says to avoid too much black and white. They're too harsh. #1D1D1D instead of #000. Pink looks good with brown, but so does blue. Blue felt a bit boring. It didn't excite me. I wanted something more vibrant. Reds are vibrant but too urgent. I put to work some of my favorite color scheme tools.
 
 ### Mix and Match
+
 What it all came down to is I really liked the pinks with the dark browns. Time for some mixing and matching with
+
 #### [Coolors](https://coolors.com)
+
 #### [Paletton](http://paletton.com)
 
 Then a bit of grey and voila.

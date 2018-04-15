@@ -13,7 +13,7 @@
         <div class="column auto">
 
         </div>
-        <div class="column is-four-fifths-mobile is-three-fifths-tablet">
+        <div class="column is-four-fifths-mobile is-three-fifths-tablet content">
 
             <div v-html="post.body" />
           </div>
@@ -53,9 +53,9 @@ export default {
 }
 </script>
 <style>
-.page {
-  margin: 5vh;
-  padding: 10vh 15vh;
+.content {
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 .content a {
   color: #ac3b61;
