@@ -15,21 +15,24 @@
                     </label>
                   </p>
                   <div class="field">
-                    <label class="label">Name</label>
+                    <label class="label">Name
                     <p class="control">
-                      <input name="name" v-model="name" :class="{'input name': true}" type="text" placeholder="Name">
+                      <input name="name" v-model="name" :class="{'input': true}" type="text" placeholder="Name">
                     </p>
+                    </label>
                   </div>
                   <div class="field">
-                    <label class="label">Email</label>
+                    <label class="label">Email
                     <p class="control">
-                      <input name="email" v-model="email" class='input email' type="text" placeholder="Email">
-                        If you would like a reply to your message.
+                      <input name="email" v-model="email" class='input' type="text" placeholder="Email">
+                       <i> If you would like a reply to your message.</i>
                     </p>
+                    </label>
                   </div>
                   <div class="field">
-                    <label for="message" class="label">Message</label>
+                    <label for="message" class="label">Message
                     <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6" v-model="message"></textarea>
+                    </label>
                   </div>
                   <p>
                   <button class="button is-medium is-pink" type="submit" value="submit">
