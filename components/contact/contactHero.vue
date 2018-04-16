@@ -5,6 +5,9 @@
         <h1 class="title is-size-1">
         Contact
         </h1>
+        <h2 class="subtitle is-size-3">
+        Many ways to get in touch with Amy.
+        </h2>
       </div>
     </div>
   </section>

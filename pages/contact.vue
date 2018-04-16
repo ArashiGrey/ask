@@ -2,6 +2,7 @@
   <section class="pageStuff">
     <contact-hero/>
     <contact-part/>
+    <follow-me/>
     <quick-message/>
     <signup-newsletter/>
   </section>
@@ -10,6 +11,7 @@
 <script>
 import contactHero from '~/components/contact/contactHero.vue'
 import contactPart from '~/components/contact/contactPart.vue'
+import followMe from '~/components/contact/followMe.vue'
 import quickMessage from '~/components/quickMessage.vue'
 import signupNewsletter from '~/components/signupNewsletter.vue'
 
@@ -18,6 +20,7 @@ export default {
   components: {
     contactHero,
     contactPart,
+    followMe,
     quickMessage,
     signupNewsletter
   },

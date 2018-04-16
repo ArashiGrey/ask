@@ -1,7 +1,7 @@
 <template>
   <section class="message">
     <div class="columns is-mobile is-centered">
-      <div class="column is-three-fifths">
+      <div class="column is-four-fifths-mobile is-three-fifths-tablet">
         <div class="card">
           <div class="card-content">
             <h2 class="title">Quick Message</h2>

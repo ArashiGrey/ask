@@ -5,6 +5,9 @@
         <h1 class="title big">
           Shop
         </h1>
+        <h2 class="subtitle is-size-3">
+        Handcrafted items that are unique and environmentally conscious.
+        </h2>
       </div>
     </div>
   </section>
@@ -32,5 +35,8 @@ h1 {
 	background-repeat: no-repeat;
 	background-size: 100% .2em;
 	background-position: 0 95%;
+}
+h2 {
+  text-align: center;
 }
 </style>

@@ -69,9 +69,23 @@ export default {
 </script>
 <style scoped>
 header,
-.navbar,
-.navbar-dropdown.is-boxed {
+.navbar {
   background-color: #413e3c;
+}
+.navbar-dropdown.is-boxed {
+  background-color: #d9d5d6;
+}
+.navbar-dropdown.is-boxed a {
+  color: #413e3c;
+}
+@media (max-width: 768px){
+  .navbar-item a {
+    color:#413e3c;
+    padding: 1vh 2vw;
+    }
+  .navbar-item a.link {
+    color:#413e3c;
+  }
 }
 .navbar-item a{
   color:#bab2b5;

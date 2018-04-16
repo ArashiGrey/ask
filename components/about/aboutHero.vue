@@ -5,6 +5,9 @@
         <h1 class="title is-size-1">
         About
         </h1>
+        <h2 class="subtitle is-size-3">
+        All about Amy and the business.
+        </h2>
       </div>
     </div>
   </section>
