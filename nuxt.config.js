@@ -60,6 +60,7 @@ module.exports = {
      */
     modules: [
       '@nuxtjs/pwa',
+      '@nuxtjs/sitemap',
       'nuxt-bulma-slim',
       'nuxtent'
     ],
