@@ -17,13 +17,13 @@
                   <div class="field">
                     <label class="label">Name</label>
                     <p class="control">
-                      <input name="name" v-model="name" :class="{'input': true}" type="text" placeholder="Name">
+                      <input name="name" v-model="name" :class="{'input name': true}" type="text" placeholder="Name">
                     </p>
                   </div>
                   <div class="field">
                     <label class="label">Email</label>
                     <p class="control">
-                      <input name="email" v-model="email" class='input' type="text" placeholder="Email">
+                      <input name="email" v-model="email" class='input email' type="text" placeholder="Email">
                         If you would like a reply to your message.
                     </p>
                   </div>

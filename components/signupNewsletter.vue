@@ -25,7 +25,7 @@
                 <div class="field">
                   <label class="label">Name</label>
                   <p class="control">
-                    <input name="name" v-model="name" v-validate="'required|alpha'" :class="{'input': true, 'is-danger': errors.has('name') }"
+                    <input name="name" v-model="name" v-validate="'required|alpha_spaces'" :class="{'input name': true, 'is-danger': errors.has('name') }"
                       type="text" placeholder="Name">
                     <span v-show="errors.has('name')" class="help is-danger">{{ errors.first('name') }}</span>
                   </p>
@@ -33,7 +33,7 @@
                 <div class="field">
                   <label class="label">Email</label>
                   <p class="control">
-                    <input name="email" v-model="email" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }"
+                    <input name="email" v-model="email" v-validate="'required|email'" :class="{'input email': true, 'is-danger': errors.has('email') }"
                       type="text" placeholder="Email">
                     <span v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</span>
                   </p>
