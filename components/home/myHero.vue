@@ -27,7 +27,7 @@ export default {
   max-height: 100vh;
 }
 .hero-body {
-  background-image: url('https://res.cloudinary.com/askcreative-space/image/upload/q_80/v1523607303/Optimized-heroApril132017.jpg');
+  background-image: url('https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_80/v1523607303/Optimized-heroApril132017.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 85vw;
