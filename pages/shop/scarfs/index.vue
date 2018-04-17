@@ -32,6 +32,26 @@
         </div>
       </div>
     </div>
+    <div id="my-cart-13580081"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?13580081&data_platform=code&data_date=2018-04-17" charset="utf-8"></script>
+<!-- remove layout parameter if you want to position minicart yourself -->
+<script type="text/javascript"> xMinicart("layout=attachToCategories", "id=my-cart-13580081"); </script>
+</div>
+<div id="my-search-13580081"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?13580081&data_platform=code&data_date=2018-04-17" charset="utf-8"></script>
+<script type="text/javascript"> xSearch("id=my-search-13580081"); </script>
+</div>
+    <div id="my-categories-13580081"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?13580081&data_platform=code&data_date=2018-04-17" charset="utf-8"></script>
+<script type="text/javascript"> xCategoriesV2("id=my-categories-13580081"); </script>
+</div>
+        <div id="my-store-13580081"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?13580081&data_platform=code&data_date=2018-04-17" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-13580081");</script>
+</div>
   </section>
 </template>
 
