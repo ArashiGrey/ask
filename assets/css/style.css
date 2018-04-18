@@ -4,7 +4,6 @@
          url('~/assets/fonts/TikalSans-Medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -13,7 +12,6 @@
          url('~/assets/fonts/Fertigo_PRO-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'chevs';
@@ -42,10 +40,10 @@
 }
   
 body {
-    background-color: #fefcfb;
-    color: #413E3C;
+  background-color: #fefcfb;
+  color: #413e3C;
 }
-:root{
+:root {
 --serif: 'Fertigo', Georgia, Times, serif;
 --sans-serif: 'TikalSans', -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 --monospace: Monaco, Consolas, "Lucida Console", 'Liberation Mono', Courier, monospace;
@@ -57,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--serif);
+  font-family: var(--serif);
 }
 
 .icon-chevron-left-square:before {
