@@ -1,28 +1,28 @@
 @font-face {
   font-family: 'TikalSans';
-  src: url('~/fonts/TikalSans-Medium-webfont.woff2') format('woff2'),
-       url('~/fonts/TikalSans-Medium-webfont.woff') format('woff');
+  src: url('~/assets/fonts/TikalSans-Medium-webfont.woff2') format('woff2'),
+       url('~/assets/fonts/TikalSans-Medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
 font-family: 'TikalSans';
-src: url('~/fonts/TikalSans-MediumItalic-webfont.woff2') format('woff2'),
-     url('~/fonts/TikalSans-MediumItalic-webfont.woff') format('woff');
+src: url('~/assets/fonts/TikalSans-MediumItalic-webfont.woff2') format('woff2'),
+     url('~/assets/fonts/TikalSans-MediumItalic-webfont.woff') format('woff');
 font-weight: normal;
 font-style: italic;
 }
 @font-face {
   font-family: 'Fertigo';
-  src: url('~/fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
-       url('~/fonts/Fertigo_PRO-webfont.woff') format('woff');
+  src: url('~/assets/fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
+       url('~/assets/fonts/Fertigo_PRO-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
 font-family: 'Fertigo';
-src: url('~/fonts/FertigoPro_Italic-webfont.woff2') format('woff2'),
-     url('~/fonts/FertigoPro_Italic-webfont.woff') format('woff');
+src: url('~/assets/fonts/FertigoPro_Italic-webfont.woff2') format('woff2'),
+     url('~/assets/fonts/FertigoPro_Italic-webfont.woff') format('woff');
 font-weight: normal;
 font-style: italic;
 }
