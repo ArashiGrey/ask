@@ -1,40 +1,36 @@
 @font-face {
-    font-family: 'TikalSans';
-    src: url('/fonts/TikalSans-Medium-webfont.woff2') format('woff2'),
-         url('/fonts/TikalSans-Medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
   font-family: 'TikalSans';
-  src: url('/fonts/TikalSans-MediumItalic-webfont.woff2') format('woff2'),
-       url('/fonts/TikalSans-MediumItalic-webfont.woff') format('woff');
+  src: url('~/fonts/TikalSans-Medium-webfont.woff2') format('woff2'),
+       url('~/fonts/TikalSans-Medium-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'Fertigo';
-    src: url('/fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
-         url('/fonts/Fertigo_PRO-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+font-family: 'TikalSans';
+src: url('~/fonts/TikalSans-MediumItalic-webfont.woff2') format('woff2'),
+     url('~/fonts/TikalSans-MediumItalic-webfont.woff') format('woff');
+font-weight: normal;
+font-style: italic;
 }
 @font-face {
   font-family: 'Fertigo';
-  src: url('/fonts/FertigoPro_Italic-webfont.woff2') format('woff2'),
-       url('/fonts/FertigoPro_Italic-webfont.woff') format('woff');
+  src: url('~/fonts/Fertigo_PRO-webfont.woff2') format('woff2'),
+       url('~/fonts/Fertigo_PRO-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
 }
-  
-body {
-  background-color: #fefcfb;
-  color: #413e3C;
+@font-face {
+font-family: 'Fertigo';
+src: url('~/fonts/FertigoPro_Italic-webfont.woff2') format('woff2'),
+     url('~/fonts/FertigoPro_Italic-webfont.woff') format('woff');
+font-weight: normal;
+font-style: italic;
 }
+
 :root {
 --serif: 'Fertigo', Georgia, Times, serif;
---sans-serif: 'TikalSans', -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
---monospace: Monaco, Consolas, "Lucida Console", 'Liberation Mono', Courier, monospace;
+--sans-serif: 'TikalSans', -apple-system, '.SFNSText-Regular', 'San Francisco', 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+--monospace: Monaco, Consolas, 'Lucida Console', 'Liberation Mono', Courier, monospace;
 }
 
 h1,
@@ -44,4 +40,38 @@ h4,
 h5,
 h6 {
   font-family: var(--serif);
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html {
+  background-color: #fefcfb;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--sans-serif);
+}
+
+code {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: var(--monospace);
+}
+
+body {
+  font-family: var(--sans-serif);
+  color: #413e3c;
+  font-weight: normal;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+  font-family: var(--serif);
+  color: #413e3c;
+  font-weight: normal;
 }
