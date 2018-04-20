@@ -6,16 +6,25 @@
           Shop
         </h1>
         <h2 class="subtitle is-size-3">
-        Handcrafted items that are unique and environmentally conscious.
+          Handcrafted items that are unique and environmentally conscious.
         </h2>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-4 is-offset-8">
+        <div v-html="script"></div>
       </div>
     </div>
   </section>
 </template>
 
+
 <script>
 export default {
-  name: 'shopHero'
+  name: 'shopHero',
+    data: () => ({
+    script: "<div id='my-search-13580081'></div><div><script data-cfasync='false' type='text/javascript' src='https://app.ecwid.com/script.js?13580081&data_platform=code&data_date=2018-04-19' charset='utf-8'><\/script><script type='text/javascript'> xSearch('id=my-search-13580081'); <\/script></div>",
+  }),
 }
 </script>
 
