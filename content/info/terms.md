@@ -135,10 +135,10 @@ These Terms of Service and any separate agreements whereby we provide you Servic
 
 ### Company information:
 #### Head Office and mailing address:
-Amy Storm Kosman creative
-Mirastraat 13
-7521 ZE Enshcede Netherlands
-T:0031.6.20707292, ( Tuesday – Friday from 10:00 to 18:00 )
-E: info@askcreative.space
-KvK Chamber of Commerce number: 68940394
-VAT identification number: NL 451324973B01
+Amy Storm Kosman creative  
+Mirastraat 13  
+7521 ZE Enshcede Netherlands  
+T:0031.6.20707292, ( Tuesday – Friday from 10:00 to 18:00 )  
+E: info@askcreative.space  
+KvK Chamber of Commerce number: 68940394  
+VAT identification number: NL 451324973B01  

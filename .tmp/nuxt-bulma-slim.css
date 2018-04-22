@@ -58,11 +58,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-td,
-th {
-  padding: 0;
-  text-align: left; }
-
 html {
   background-color: white;
   font-size: 16px;
@@ -133,14 +128,6 @@ small {
 span {
   font-style: inherit;
   font-weight: inherit; }
-
-table td,
-table th {
-  text-align: left;
-  vertical-align: top; }
-
-table th {
-  color: #363636; }
 
 .is-size-1 {
   font-size: 3rem !important; }
@@ -251,9 +238,6 @@ a.box:active {
     border-color: #dbdbdb;
     box-shadow: none;
     opacity: 0.5; }
-  .button.is-fullwidth {
-    display: flex;
-    width: 100%; }
 
 .container {
   margin: 0 auto;
@@ -340,24 +324,6 @@ a.box:active {
 
 .content table {
   width: 100%; }
-  .content table td,
-  .content table th {
-    border: 1px solid #dbdbdb;
-    border-width: 0 0 1px;
-    padding: 0.5em 0.75em;
-    vertical-align: top; }
-  .content table th {
-    color: #363636;
-    text-align: left; }
-  .content table tr:hover {
-    background-color: whitesmoke; }
-  .content table thead td,
-  .content table thead th {
-    border-width: 0 0 2px;
-    color: #363636; }
-  .content table tbody tr:last-child td,
-  .content table tbody tr:last-child th {
-    border-bottom-width: 0; }
 
 .content.is-medium {
   font-size: 1.25rem; }
@@ -448,10 +414,6 @@ a.box:active {
   .input.is-medium,
   .textarea.is-medium {
     font-size: 1.25rem; }
-  .input.is-fullwidth,
-  .textarea.is-fullwidth {
-    display: block;
-    width: 100%; }
 
 .textarea {
   display: block;
@@ -555,48 +517,6 @@ a.box:active {
   background-color: white;
   color: #363636;
   margin-bottom: 1.5rem; }
-  .table td,
-  .table th {
-    border: 1px solid #dbdbdb;
-    border-width: 0 0 1px;
-    padding: 0.5em 0.75em;
-    vertical-align: top; }
-    .table td.is-danger,
-    .table th.is-danger {
-      background-color: #ff3860;
-      border-color: #ff3860;
-      color: #fff; }
-    .table td.is-narrow,
-    .table th.is-narrow {
-      white-space: nowrap;
-      width: 1%; }
-  .table th {
-    color: #363636;
-    text-align: left; }
-  .table thead td,
-  .table thead th {
-    border-width: 0 0 2px;
-    color: #363636; }
-  .table tbody tr:last-child td,
-  .table tbody tr:last-child th {
-    border-bottom-width: 0; }
-  .table.is-bordered td,
-  .table.is-bordered th {
-    border-width: 1px; }
-  .table.is-bordered tr:last-child td,
-  .table.is-bordered tr:last-child th {
-    border-bottom-width: 1px; }
-  .table.is-fullwidth {
-    width: 100%; }
-  .table.is-hoverable tbody tr:not(.is-selected):hover {
-    background-color: #fafafa; }
-  .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover {
-    background-color: whitesmoke; }
-  .table.is-narrow td,
-  .table.is-narrow th {
-    padding: 0.25em 0.5em; }
-  .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-    background-color: #fafafa; }
 
 .tag:not(body) {
   align-items: center;
@@ -611,9 +531,6 @@ a.box:active {
   padding-left: 0.75em;
   padding-right: 0.75em;
   white-space: nowrap; }
-  .tag:not(body) .delete {
-    margin-left: 0.25em;
-    margin-right: -0.375em; }
   .tag:not(body).is-danger {
     background-color: #ff3860;
     color: #fff; }
@@ -668,78 +585,12 @@ a.tag:hover {
 .block:not(:last-child) {
   margin-bottom: 1.5rem; }
 
-.delete {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background-color: rgba(10, 10, 10, 0.2);
-  border: none;
-  border-radius: 290486px;
-  cursor: pointer;
-  display: inline-block;
-  flex-grow: 0;
-  flex-shrink: 0;
-  font-size: 0;
-  height: 20px;
-  max-height: 20px;
-  max-width: 20px;
-  min-height: 20px;
-  min-width: 20px;
-  outline: none;
-  position: relative;
-  vertical-align: top;
-  width: 20px; }
-  .delete:before, .delete:after {
-    background-color: white;
-    content: "";
-    display: block;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%) rotate(45deg);
-    transform-origin: center center; }
-  .delete:before {
-    height: 2px;
-    width: 50%; }
-  .delete:after {
-    height: 50%;
-    width: 2px; }
-  .delete:hover, .delete:focus {
-    background-color: rgba(10, 10, 10, 0.3); }
-  .delete:active {
-    background-color: rgba(10, 10, 10, 0.4); }
-  .delete.is-medium {
-    height: 24px;
-    max-height: 24px;
-    max-width: 24px;
-    min-height: 24px;
-    min-width: 24px;
-    width: 24px; }
-
 .heading {
   display: block;
   font-size: 11px;
   letter-spacing: 1px;
   margin-bottom: 5px;
   text-transform: uppercase; }
-
-.number {
-  align-items: center;
-  background-color: whitesmoke;
-  border-radius: 290486px;
-  display: inline-flex;
-  font-size: 1.25rem;
-  height: 2em;
-  justify-content: center;
-  margin-right: 1.5rem;
-  min-width: 2.5em;
-  padding: 0.25rem 0.5rem;
-  text-align: center;
-  vertical-align: top; }
 
 .card {
   background-color: white;
@@ -803,39 +654,6 @@ a.tag:hover {
     font-size: 1.25rem; }
   .message.is-danger {
     background-color: #fff5f7; }
-    .message.is-danger .message-header {
-      background-color: #ff3860;
-      color: #fff; }
-    .message.is-danger .message-body {
-      border-color: #ff3860;
-      color: #cd0930; }
-
-.message-header {
-  align-items: center;
-  background-color: #4a4a4a;
-  border-radius: 3px 3px 0 0;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  line-height: 1.25;
-  padding: 0.5em 0.75em;
-  position: relative; }
-  .message-header .delete {
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin-left: 0.75em; }
-  .message-header + .message-body {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-top: none; }
-
-.message-body {
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
-  color: #4a4a4a;
-  padding: 1em 1.25em; }
-  .message-body code {
-    background-color: white; }
 
 .navbar {
   background-color: white;
@@ -1066,9 +884,6 @@ a.navbar-item:hover, a.navbar-item.is-active {
   .columns.is-mobile > .column.is-three-fifths {
     flex: none;
     width: 60%; }
-  .columns.is-mobile > .column.is-four-fifths {
-    flex: none;
-    width: 80%; }
   .columns.is-mobile > .column.is-3 {
     flex: none;
     width: 25%; }
@@ -1106,9 +921,6 @@ a.navbar-item:hover, a.navbar-item.is-active {
     .column.is-three-fifths, .column.is-three-fifths-tablet {
       flex: none;
       width: 60%; }
-    .column.is-four-fifths {
-      flex: none;
-      width: 80%; }
     .column.is-3 {
       flex: none;
       width: 25%; }

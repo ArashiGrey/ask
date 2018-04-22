@@ -12,7 +12,7 @@
       <div class="columns">
         <div class="column auto">
         </div>
-        <div class="column is-three-fifths">
+        <div class="column is-three-fifths content">
         <div v-html="info.body" />
         </div>
         <div class="column auto">
@@ -43,3 +43,13 @@ export default {
   }
 }
 </script>
+<style>
+.content {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+.content a {
+  color: #ac3b61;
+  text-decoration: underline;
+}
+</style>

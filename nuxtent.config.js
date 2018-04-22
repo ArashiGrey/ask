@@ -11,7 +11,7 @@ module.exports = {
       }
     }
 },
-  content:[
+  content: [
     [
       'posts',
       {
@@ -24,7 +24,7 @@ module.exports = {
       }
     ],
     [
-      'infos',
+      'info',
       {
         page: '/info/_page',
         isPost: false,
@@ -34,6 +34,6 @@ module.exports = {
   ],
   api: {
     baseURL: 'http://localhost:3000',
-    browserBaseURL: 'https://askcreative.space'
+    browserBaseURL: 'http://localhost:3000'
   }
 }
