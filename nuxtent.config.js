@@ -24,9 +24,9 @@ module.exports = {
       }
     ],
     [
-      'pages',
+      'infos',
       {
-        page: '/_page',
+        page: '/info/_page',
         isPost: false,
         generate: ['get', 'getAll']
       }
@@ -34,6 +34,6 @@ module.exports = {
   ],
   api: {
     baseURL: 'http://localhost:3000',
-    browserBaseURL: 'https://www.askcreative.space'
+    browserBaseURL: 'http://localhost:3000'
   }
 }

@@ -1,7 +1,6 @@
 ---
-section: Info
-title: Payments
-permalink: /info/payments/
+title: Payments Policy
+description: Amy Storm Kosman creative Payment Policy, how to pay, and how that payment is processed.
 modified: 2018-04-22
 ---
 The agreement for buying and selling is realized at the moment that you accept and comply with the general terms & conditions of Amy Storm Kosman creative. As long as the agreement is not confirmed by mail the customer has the right to cancel the agreement.
