@@ -22,6 +22,7 @@
     "nuxt": "^1.4.0",
     "nuxt-bulma-slim": "^0.3.2",
     "nuxtent": "^1.4.1",
+    "prismjs": "^1.14.0",
     "sass-loader": "^6.0.7",
     "vee-validate": "^2.0.6"
   },

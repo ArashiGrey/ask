@@ -18,7 +18,7 @@ Environmental concerns are a core value of my company. So my website should feat
 ## Finding Inspiration
 
 ### [Envy Labs](https://envylabs.com)
-![](https://cdn.tipe.io/5a9e71aed747450013dee27d/324cd887-468d-4ddd-becf-7ac54e51f272)
+![](https://res.cloudinary.com/askcreative-space/image/upload/v1524385718/envy_zwi3hg.png)
 
 ### [Color Theory](http://www.colortheory.ca)
 ![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607429/Screenshot-2018-3-9_Color_Theory_gltixa.jpg)
@@ -36,10 +36,10 @@ Environmental concerns are a core value of my company. So my website should feat
 ![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607440/Screenshot-2018-3-9_Essays_on_Beer_qu0w9s.jpg)
  
 ### [NJI3](https://nji3.com/ivana-pi)
-![](https://cdn.tipe.io/5a9e71aed747450013dee27d/423e6fb8-3610-46b3-aeb6-c2c0815f8ddb)
+![](https://res.cloudinary.com/askcreative-space/image/upload/v1524385713/nji3_psosst.png)
   
 ### [Bashful Creative Agency](http://bashful.com/au)
-![](https://cdn.tipe.io/5a9e71aed747450013dee27d/87d56bfa-1f84-487a-a6eb-18d872a0b9aa)
+![](https://res.cloudinary.com/askcreative-space/image/upload/v1524385708/bashful_riakvu.png)
   
 I loved the dark backgrounds. Especially the dark browns. Color theory in web design says to avoid too much black and white. They're too harsh. #1D1D1D instead of #000. Pink looks good with brown, but so does blue. Blue felt a bit boring. It didn't excite me. I wanted something more vibrant. Reds are vibrant but too urgent. I put to work some of my favorite color scheme tools.
 
