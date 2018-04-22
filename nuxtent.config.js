@@ -34,6 +34,6 @@ module.exports = {
   ],
   api: {
     baseURL: 'http://localhost:3000',
-    browserBaseURL: 'https://askcreative.space'
+    browserBaseURL: 'https://www.askcreative.space'
   }
 }
