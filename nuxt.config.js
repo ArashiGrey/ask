@@ -32,7 +32,8 @@ module.exports = {
       { rel: 'icon', type: 'image/png', href: 'favicon-16x16.png', sizes: '16x16' },
       { rel: 'icon', type: 'image/png', href: 'favicon-128.png', sizes: '128x128' },
       { rel: 'sitemap', href: '/sitemap.xml' }
-    ],
+    ]
+  },
     /*
      ** Global CSS
      */
@@ -45,7 +46,7 @@ module.exports = {
      ** Build configuration
      */
     build: {
-      extend(config, ctx) {
+      extend (config, ctx) {
         if (ctx.isClient) {
           config.module.rules.push({
             enforce: 'pre',
@@ -85,5 +86,4 @@ module.exports = {
       color: '#ac3b61',
       height: '5px'
     }
-  }
 }
