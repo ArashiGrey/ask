@@ -34,7 +34,7 @@ module.exports = {
       { rel: 'sitemap', href: '/sitemap.xml' }
     ],
     script: [
-      { type: 'text/javascript', id: 'Cookiebot', src: 'https://consent.cookiebot.com/uc.js', datacbid: '7d4f74e8-03e4-4f85-81a7-8c691cd90849',  async: true }  
+      { type: 'text/javascript', id: 'Cookiebot', src: 'https://consent.cookiebot.com/uc.js', content: '7d4f74e8-03e4-4f85-81a7-8c691cd90849' }  
     ],
     /*
      ** Global CSS
