@@ -24,28 +24,8 @@
               <div class="navbar-item">
                 <router-link to="/gallery" class='link'>Gallery</router-link>
               </div>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a href='/shop' class='link'>Shop</a>
-                <div class="navbar-dropdown is-boxed">
-                  <div class="navbar-item">
-                    <router-link to="/shop#!/Bags/c/28746114" class='link'>Bags</router-link>
-                  </div>
-                  <div class="navbar-item">
-                    <router-link to="/shop#!/Belts/c/28746115" class='link'>Belts</router-link>
-                  </div>
-                  <div class="navbar-item">
-                    <router-link to="/shop#!/Hair/c/28746116" class='link'>Hair</router-link>
-                  </div>
-                  <div class="navbar-item">
-                    <router-link to="/shop#!/Home/c/28746117" class='link'>Home</router-link>
-                  </div>
-                  <div class="navbar-item">
-                    <router-link to="/shop#!/Jewelry/c/28746118" class='link'>Jewelry</router-link>
-                  </div>
-                  <div class="navbar-item">
-                    <router-link to="/shop#!/Scarfs/c/28746113" class='link'>Scarfs</router-link>
-                  </div>
-                </div>
+              <div class="navbar-item">
+                <router-link to="/shop" class='link'>Shop</router-link>
               </div>
               <div class="navbar-item">
                 <router-link to="/contact" class='link'>Contact</router-link>
@@ -56,6 +36,7 @@
     </nav>
   </header>
 </template>
+
 
 <script>
 export default {

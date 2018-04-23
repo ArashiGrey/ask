@@ -39,7 +39,8 @@ module.exports = {
      */
     css: [
       '~assets/css/style.css',
-      '~/node_modules/bulma-timeline/dist/bulma-timeline.min.css'
+      '~/node_modules/bulma-timeline/dist/bulma-timeline.min.css',
+      '~/node_modules/prismjs/themes/prism.css'
     ],
     /*
      ** Build configuration

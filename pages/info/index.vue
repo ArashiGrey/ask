@@ -26,7 +26,7 @@ export default {
   layout: 'defaultLayout',
   async asyncData ({ app }) {
     return {
-      infos: await app.$content('/info').getAll()
+      infos: await app.$content('/infos').getAll()
     }
   }
 }

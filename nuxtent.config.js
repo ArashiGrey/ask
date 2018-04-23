@@ -1,39 +1,50 @@
-var Prism = require('prismjs')
-require('prismjs/components/prism-php')
-require('prismjs/components/prism-yaml')
-require('prismjs/components/prism-bash')
+const Prism = require('prismjs')
+const externalLinks = require('markdown-it-link-attributes')
+const emoji = require('markdown-it-emoji')
 
 module.exports = {
   parsers: {
     md: {
-      highlight: (code, lang) => {
-        return `<pre class="language-${lang}"><code class="language-${lang}">${Prism.highlight(code, Prism.languages[lang] || Prism.languages.markup)}</code></pre>`
-      }
+        extend(config) {
+          config.highlight = (code, lang) => {
+            return `<pre class="language-${lang}"><code class="language-${lang}">${Prism.highlight(code, Prism.languages[lang] || Prism.languages.markup)}</code></pre>`
+          }
+        },
+        plugins: [
+            emoji,
+            [ externalLinks, { target: '_blank', rel: 'noopener' } ]
+        ]
     }
-},
+  },
   content: [
     [
       'posts',
       {
+      page: 'blog/_post',
       permalink: ':year/:slug',
-      page: '/blog/_post',
-      generate: [ // for static build
-        'get', 'getAll'
+      isPost: true,
+      generate: [ 
+        'get', 
+        'getAll' 
       ],
-      isPost: true
       }
     ],
     [
-      'info',
+      'infos',
       {
-        page: '/info/_page',
+        page: 'info/_page',
+        permalink: ':slug',
         isPost: false,
-        generate: ['get', 'getAll']
+        generate: [ 
+          'get', 
+          'getAll' 
+        ],
       }
     ]
   ],
   api: {
     baseURL: 'http://localhost:3000',
-    browserBaseURL: 'https://www.askcreative.space'
+    browserBaseURL: 'http://localhost:3000'
+    // isStatic ? 'http://localhost:3000' : '' //https://www.askcreative.space'
   }
 }

@@ -49,6 +49,14 @@ export default {
   transition (to, from) {
     if (!from || to.path === '/blog') return 'slide-left'
     return 'slide-right'
+  },
+    head () {
+    return {
+      title: `A.S.K.c - ${this.post.title}`,
+      meta: [
+        { hid: 'description', name: 'description', content: `${this.post.description}` }
+      ]
+    }
   }
 }
 </script>

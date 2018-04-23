@@ -27,9 +27,9 @@ import piecePaper from '~/components/info/piecePaper.vue'
 export default {
   head () {
     return {
-      title: 'A.S.K.c ${this.info.title}',
+      title: `ASKc-${this.info.title}`,
       meta: [
-        { hid: 'description', name: 'description', content: '${this.info.description}' }
+        { hid: 'description', name: 'description', content: `${this.info.description}` }
       ]
     }
   },
@@ -38,7 +38,7 @@ export default {
   },
     async asyncData({ app, route }) {
     return {
-      info: await app.$content("/info").get(route.path)
+      info: await app.$content("/infos").get(route.path)
     }
   }
 }

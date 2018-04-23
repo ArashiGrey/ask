@@ -47,32 +47,37 @@ I loved the dark backgrounds. Especially the dark browns. Color theory in web de
 
 What it all came down to is I really liked the pinks with the dark browns. Time for some mixing and matching with
 
-#### [Coolors](https://coolors.com)
+#### [Coolors](https://coolors.co)
 
 #### [Paletton](http://paletton.com)
 
 Then a bit of grey and voila.
 
-`:root {
+```css
+:root {
 --color-pink: #AC3B61;
 --color-powder: #FEFCFB;
 --color-grey1: #D9D5D6;
 --color-grey2: #BAB2B5;
 --color-font: #413E3C;
-}`
+}
+```
 
 There are always some standard website colors. Success, Warning, Danger, etc. and with the help of [Cohesive Colors](http://javier.xyz/cohesive-colors/) behold.
 
-`:root {
+```css
+:root {
 --color-blue: #336CA4;
 --color-green: #3E9523;
 --color-ruby: #8C0C23;
 --color-orange: #F54002
-}`
+}
+```
 
 I used the above colors and tools to make up some lighter and darker colors if the need arises.
 
-`:root {
+```css
+:root {
 --color-lighter-blue: #7DA9D3;
 --color-light-blue: #5186B9;
 --color-blue: #336CA4;
@@ -99,15 +104,16 @@ I used the above colors and tools to make up some lighter and darker colors if t
 --color-dark-orange: #C13100;
 --color-darker-orange: #972700;
 --color-powder: #FEFCFB;
---color-lighter-grey: #F6F6F6;
---color-light-grey: #F2F1F1;
---color-grey1: #D9D5D6;
---color-grey2: #BAB2B5;
---color-dark-grey: #998C91;
---color-darker-grey: #7B686F;
---color-lighter-font: #AAA39D;
---color-light-font: #78726F;
---color-font: #413E3C;
---color-dark-font: #171412;
---color-darker-font: #1D150F;
-}`
+--color-lighter-grey: #F6F6F6;  
+--color-light-grey: #F2F1F1;  
+--color-grey1: #D9D5D6;  
+--color-grey2: #BAB2B5;  
+--color-dark-grey: #998C91;  
+--color-darker-grey: #7B686F;  
+--color-lighter-font: #AAA39D;  
+--color-light-font: #78726F;  
+--color-font: #413E3C;  
+--color-dark-font: #171412;  
+--color-darker-font: #1D150F;  
+}
+```
