@@ -7,9 +7,10 @@
         <nuxt-link :to="info.permalink">
           <h2 class="title">{{ info.title }}</h2>
         </nuxt-link>
+        <br>
         </div>
         <h2 class="title">
-        <nuxt-link to="/info/cookies" class='link'>Cookie Policy</nuxt-link>
+        <nuxt-link to="/info/cookies">Cookie Policy</nuxt-link>
         </h2>
       </div>
     </div>
