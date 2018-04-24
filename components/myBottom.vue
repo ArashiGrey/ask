@@ -101,7 +101,7 @@
 export default {
   name: 'myBottom',
   data: () => ({
-    scripts: "<script id='Cookiebot' src='https://consent.cookiebot.com/uc.js' data-cbid='7d4f74e8-03e4-4f85-81a7-8c691cd90849' type='text/javascript' async><\/script>"
+    scripts: "<script src='https://optanon.blob.core.windows.net/langswitch/4cd12a2f-e766-4409-87f0-920309524863.js' type='text/javascript' charset='UTF-8'><\/script><script type='text/javascript'> function OptanonWrapper() { }<\/script>"
   })
 }
 </script>
