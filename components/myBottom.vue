@@ -93,23 +93,6 @@
       </svg>
     </div>
     Copyright &copy; 2017-2018.
-    <!-- OneTrust Cookies Settings button start -->
-
-<a class="optanon-show-settings">Cookie Settings</a>
-
-<!-- OneTrust Cookies Settings button end -->
-    </div>
-<!-- OneTrust Cookies Consent Notice (Production CDN, www.askcreative.space, en-GB) start -->
-
-<script src="https://cdn.cookielaw.org/consent/a38085ca-d33d-4683-99cc-4689b5f465c5.js" type="text/javascript" charset="UTF-8"></script>
-
-<script type="text/javascript">
-
-function OptanonWrapper() { }
-
-</script>
-
-<!-- OneTrust Cookies Consent Notice (Production CDN, www.askcreative.space, en-GB) end -->
   </footer>
 </template>
 
