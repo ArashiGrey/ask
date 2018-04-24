@@ -96,11 +96,14 @@
   </footer>
 </template>
 
-
-
 <script>
+import config from '~/plugins/civic.js'
+
 export default {
-  name: 'myBottom'
+  name: 'myBottom',
+  methods: {
+    CookieControl:load( config )
+  }
 }
 </script>
 
