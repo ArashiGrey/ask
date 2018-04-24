@@ -4,15 +4,14 @@
     <div class="columns is-centered is-multiline">
       <div class="column is-three-fifths" v-for='info in infos' :key='info'>
         <nuxt-link :to="info.permalink">
-
-                <h2 class="title">{{ info.title }}</h2>
-  
+          <h2 class="title">{{ info.title }}</h2>
         </nuxt-link>
+        <router-link to="/info/cookies" class='link'>Cookie Policy</router-link>
       </div>
-
     </div>
   </section>
 </template>
+
 
 <script>
 import infoHero from '~/components/info/infoHero.vue'
