@@ -2,11 +2,15 @@
   <section>
     <info-hero/>
     <div class="columns is-centered is-multiline">
-      <div class="column is-three-fifths" v-for='info in infos' :key='info'>
+      <div class="column is-three-fifths">
+        <div class="infolinks" v-for='info in infos' :key='info'>
         <nuxt-link :to="info.permalink">
           <h2 class="title">{{ info.title }}</h2>
         </nuxt-link>
+        </div>
+        <h2 class="title">
         <nuxt-link to="/info/cookies" class='link'>Cookie Policy</nuxt-link>
+        </h2>
       </div>
     </div>
   </section>
