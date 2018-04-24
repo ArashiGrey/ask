@@ -17,6 +17,7 @@ import signupNewsletter from '~/components/signupNewsletter.vue'
 
 export default {
   layout: 'defaultLayout',
+  scrollToTop: true,
   components: {
     contactHero,
     contactPart,

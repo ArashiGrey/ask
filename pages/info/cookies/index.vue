@@ -26,6 +26,10 @@
 import piecePaper from '~/components/info/piecePaper.vue'
 
 export default {
+  scrollToTop: true,
+  components: {
+    piecePaper
+  },
   head () {
     return {
       title: `ASKc- Cookie Policy`,
@@ -33,9 +37,6 @@ export default {
         { hid: 'description', name: 'description', content: `Amy Storm Kosman creative Cookie Policy.` }
       ]
     }
-  },
-  components: {
-    piecePaper
   },
   data: () => ({
     scripts: "<script src='https://optanon.blob.core.windows.net/langswitch/4cd12a2f-e766-4409-87f0-920309524863.js' type='text/javascript' charset='UTF-8'><\/script><script type='text/javascript'> function OptanonWrapper() { }<\/script>"

@@ -38,6 +38,7 @@
 import oneArticle from '~/components/blog/oneArticle.vue'
 
 export default {
+    scrollToTop: true,
     components: {
     oneArticle,
     },

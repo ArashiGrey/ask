@@ -32,6 +32,7 @@ import blogHero from '~/components/blog/blogHero.vue'
 
 export default {
   layout: 'defaultLayout',
+  scrollToTop: true,
   components: {
     blogHero
   },
@@ -40,7 +41,6 @@ export default {
       posts: await app.$content('/posts').getAll()
     }
   },
-  scrollToTop: true,
   head () {
     return {
       title: 'blog'

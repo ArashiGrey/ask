@@ -24,11 +24,12 @@ import infoHero from '~/components/info/infoHero.vue'
 import Card from '~/components/Card.vue'
 
 export default {
+  layout: 'defaultLayout',
+  scrollToTop: true,
   components: {
     infoHero,
     Card
   },
-  layout: 'defaultLayout',
   async asyncData ({ app }) {
     return {
       infos: await app.$content('/infos').getAll()

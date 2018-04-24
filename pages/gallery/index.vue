@@ -75,6 +75,7 @@
 <script>
 export default {
   layout: 'defaultLayout',
+  scrollToTop: true,
   head () {
     return {
       title: 'A.S.K.c Gallery',

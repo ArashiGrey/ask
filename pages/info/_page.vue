@@ -25,6 +25,10 @@
 import piecePaper from '~/components/info/piecePaper.vue'
 
 export default {
+  scrollToTop: true,
+  components: {
+    piecePaper
+  },
   head () {
     return {
       title: `ASKc-${this.info.title}`,
@@ -32,9 +36,6 @@ export default {
         { hid: 'description', name: 'description', content: `${this.info.description}` }
       ]
     }
-  },
-  components: {
-    piecePaper
   },
     async asyncData({ app, route }) {
     return {

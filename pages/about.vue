@@ -15,13 +15,13 @@ import mainTimeline from '~/components/about/mainTimeline.vue'
 
 export default {
   layout: 'defaultLayout',
+  scrollToTop: true,
   components: {
     aboutHero,
     companyStory,
     personalStory,
     mainTimeline
   },
-  scrollToTop: true,
   head () {
     return {
       title: 'A.S.K.c About',

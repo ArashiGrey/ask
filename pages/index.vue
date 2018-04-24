@@ -18,6 +18,7 @@ import signupNewsletter from '~/components/signupNewsletter.vue'
 import myBottom from '~/components/myBottom.vue'
 
 export default {
+  scrollToTop: true,
   components: {
     myHero,
     littleInfo,
