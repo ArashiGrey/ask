@@ -32,9 +32,6 @@ module.exports = {
       { rel: 'icon', type: 'image/png', href: 'favicon-16x16.png', sizes: '16x16' },
       { rel: 'icon', type: 'image/png', href: 'favicon-128.png', sizes: '128x128' },
       { rel: 'sitemap', href: '/sitemap.xml' }
-    ],
-    script: [
-      { src: 'https://cc.cdn.civiccomputing.com/8.0/cookieControl-8.0.min.js' }
     ]
   },
     /*
@@ -80,8 +77,7 @@ module.exports = {
     },
     plugins: [
       // ssr: false to only include it on client-side
-      { src: '~/plugins/vee-validate.js' },
-      { src: '~/plugins/civic.js' }
+      { src: '~/plugins/vee-validate.js' }
     ],
     /*
      ** Customize the progress bar color
