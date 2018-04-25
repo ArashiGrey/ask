@@ -43,7 +43,10 @@ export default {
   },
   head () {
     return {
-      title: 'blog'
+      title: 'A.S.K.c blog',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Boring stuff.' }
+      ]
     }
   },
   transition (to, from) {
