@@ -34,7 +34,7 @@ export default {
         content: 'A place to buy all things Amy Storm Kosman creative.'
       }],
       script: [   
-        { rel:"preload", src:"https://app.ecwid.com/script.js?13580081", as="script" }
+        { rel:"preload", src:"https://app.ecwid.com/script.js?13580081", as:"script" }
       ]
     }
   }
