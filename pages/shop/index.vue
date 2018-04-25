@@ -32,11 +32,15 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'A place to buy all things Amy Storm Kosman creative.'
-      }]
+      }],
+      metaInfo: {
+        script: [
+          { innerHTML: '{ "@context": "https://app.ecwid.com/script.js?13580081" }', type: 'text/javascript', body: true  }
+        ]
+      }
     }
   }
 }
 </script>
-
 <style>
 </style>
