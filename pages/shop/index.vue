@@ -23,7 +23,7 @@ export default {
     shopHero
     },
   data: () => ({
-    scripts: "<div id='my-store-13580081'></div><div><script type='text/javascript' data-cfasync='true' src='https://app.ecwid.com/script.js?13580081' charset='utf-8'><\/script><script type='text/javascript'> xProductBrowser('categoriesPerRow=3','views=grid(20,3) list(60) table(60)','categoryView=grid','searchView=list','id=my-store-13580081');<\/script></div>"
+    scripts: "<div id='my-store-13580081'></div><div><script type='text/javascript' data-cfasync='false' src='https://app.ecwid.com/script.js?13580081' charset='utf-8'><\/script><script type='text/javascript'> xProductBrowser('categoriesPerRow=3','views=grid(20,3) list(60) table(60)','categoryView=grid','searchView=list','id=my-store-13580081');<\/script></div>"
   }),
   head() {
     return {
@@ -33,14 +33,13 @@ export default {
         name: 'description',
         content: 'A place to buy all things Amy Storm Kosman creative.'
       }],
-      metaInfo: {
-        script: [
-          { innerHTML: '{ "@context": "https://app.ecwid.com/script.js?13580081" }', type: 'text/javascript', body: true  }
-        ]
-      }
+      script: [   
+        { rel:"preload", src:"https://app.ecwid.com/script.js?13580081", as="script" }
+      ]
     }
   }
 }
 </script>
+
 <style>
 </style>
