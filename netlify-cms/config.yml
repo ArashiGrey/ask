@@ -2,7 +2,7 @@ backend:
   name: github
   repo: LavenderGrey/ask # Change to your repo
   url: https://askcreative.space # Change to your repo
-  # url: http://localhost:3000
+  #url: http://localhost:3000
 
 media_folder: "static/uploads"
 
@@ -18,4 +18,4 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Cover Image", name: "image", widget: "image", required: false, tagname: ""}
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
-- {label: "SEO Description", name: "description", widget: "text"}
+      - {label: "SEO Description", name: "description", widget: "text"}
