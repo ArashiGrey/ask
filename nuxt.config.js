@@ -1,3 +1,5 @@
+require('babel-polyfill')
+
 module.exports = {
   /*
   ** Headers of the page
@@ -64,7 +66,8 @@ module.exports = {
       '@nuxtjs/pwa',
       '@nuxtjs/sitemap',
       'nuxt-bulma-slim',
-      'nuxtent'
+      'nuxtent',
+      'nuxt-netlify-cms'
     ],
     sitemap: {
       hostname: 'https://askcreative.space',
