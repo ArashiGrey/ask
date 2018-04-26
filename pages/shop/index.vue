@@ -23,9 +23,11 @@ export default {
   components: {
     shopHero
     },
-  data: () => ({
-    scripts: "<div><script type='text/javascript'> xProductBrowser('categoriesPerRow=3','views=grid(20,3) list(60) table(60)','categoryView=grid','searchView=list','id=my-store-13580081');<\/script></div>"
-  }),
+  data: function () {
+    return {
+    scripts: "<div><script type='text/javascript' data-cfasync='false' src='https://app.ecwid.com/script.js?13580081' charset='utf-8'><\/script><script type='text/javascript'> xProductBrowser('categoriesPerRow=3','views=grid(20,3) list(60) table(60)','categoryView=grid','searchView=list','id=my-store-13580081');<\/script></div>"
+    }
+  },
   head() {
     return {
       title: 'A.S.K.c Shop',
@@ -33,12 +35,7 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'A place to buy all things Amy Storm Kosman creative.'
-      }],
-      script: [
-        { type:'text/javascript', async:'false', src:'https://app.ecwid.com/script.js?13580081', body: true, defer: true },
-        { rel:"preload", href:"https://app.ecwid.com/script.js?13580081&data_platform=startersite_v2", body: false },
-        { rel:"preload", href:"https://d29faf8vdpk3vt.cloudfront.net/static/26.5-16565-ge2d193e470b/js/store.bundle.js", body: false } 
-      ]
+      }]
     }
   }
 }
