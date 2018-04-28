@@ -1,6 +1,11 @@
 <template>
   <section class="pageStuff">
     <shop-hero/>
+        <div class="columns">
+      <div class="column is-4 is-offset-8">
+        <div id='my-search-13580081'></div>
+        </div>
+      </div>
     <div class="columns is-centered is-multiline">
       <div class="column">
       </div>
