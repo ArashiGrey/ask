@@ -4,6 +4,7 @@
         <div class="columns">
       <div class="column is-4 is-offset-8">
         <div id='my-search-13580081'></div>
+        <div v-html="searchscript"></div>
         </div>
       </div>
     <div class="columns is-centered is-multiline">
@@ -51,7 +52,7 @@ export default {
     shopHero,
     },
   data: () => ({
-    scripts: "<script type='text/javascript' data-cfasync='true' src='https://app.ecwid.com/script.js?13580081' charset='utf-8'><\/script><script type='text/javascript'> xProductBrowser('categoriesPerRow=3','views=grid(20,3) list(60) table(60)','categoryView=grid','searchView=list','id=my-store-13580081');<\/script>"
+    searchscript: "<div id='my-search-13580081'><script type='text/javascript' src='https://app.ecwid.com/script.js?13580081' charset='utf-8'><\/script><script type='text/javascript'> xSearch('id=my-search-13580081'); <\/script></div>"
   }),
   head() {
     return {
