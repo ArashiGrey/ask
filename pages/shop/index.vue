@@ -7,13 +7,32 @@
       <div class="column is-one-third-desktop">
         <div id="my-store-13580081"></div>
         <div id="productBrowser"></div>
-         <div v-html="scripts"></div>
+        <script>
+          window.ecwid_script_defer = true;
+
+          var script = document.createElement('script');
+          script.charset = 'utf-8';
+          script.type = 'text/javascript';
+          script.src = 'https://app.ecwid.com/script.js?13580081';
+
+          document.getElementById('my-store-13580081').appendChild(script);
+
+          window._xnext_initialization_scripts = [{
+            widgetType: 'ProductBrowser',
+            id: 'productBrowser',
+            arg: [
+              '"categoriesPerRow=3","views=grid(4,4) list(10) table(20)","categoryView=grid","searchView=list","style=","responsive=yes","id=productBrowser"'
+            ]
+          }];
+
+        </script>
       </div>
       <div class="column">
       </div>
     </div>
   </section>
 </template>
+
 
 
 
