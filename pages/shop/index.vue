@@ -1,12 +1,6 @@
 <template>
   <section class="pageStuff">
     <shop-hero/>
-        <div class="columns">
-      <div class="column is-4 is-offset-8">
-        <div id='my-search-13580081'></div>
-        <div v-html="searchscript"></div>
-        </div>
-      </div>
     <div class="columns is-centered is-multiline">
       <div class="column">
       </div>
@@ -51,9 +45,6 @@ export default {
   components: {
     shopHero,
     },
-  data: () => ({
-    searchscript: "<div id='my-search-13580081'><script type='text/javascript' src='https://app.ecwid.com/script.js?13580081' charset='utf-8'><\/script><script type='text/javascript'> xSearch('id=my-search-13580081'); <\/script></div>"
-  }),
   head() {
     return {
       title: 'A.S.K.c Shop',

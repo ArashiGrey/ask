@@ -82,11 +82,6 @@ input,
 textarea {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
-code {
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: auto;
-  font-family: monospace; }
-
 body {
   color: #4a4a4a;
   font-size: 1rem;
@@ -99,13 +94,6 @@ a {
   text-decoration: none; }
   a:hover {
     color: #363636; }
-
-code {
-  background-color: whitesmoke;
-  color: #ff3860;
-  font-size: 0.875em;
-  font-weight: normal;
-  padding: 0.25em 0.5em 0.25em; }
 
 hr {
   background-color: #dbdbdb;
@@ -563,8 +551,6 @@ a.tag:hover {
     margin-top: -1.5rem; }
   .title.is-3 {
     font-size: 2rem; }
-  .title.is-4 {
-    font-size: 1.5rem; }
   .title.is-6 {
     font-size: 1rem; }
 
@@ -577,8 +563,6 @@ a.tag:hover {
     margin-top: -1.5rem; }
   .subtitle.is-3 {
     font-size: 2rem; }
-  .subtitle.is-4 {
-    font-size: 1.5rem; }
   .subtitle.is-6 {
     font-size: 1rem; }
 
@@ -885,14 +869,9 @@ a.navbar-item:hover, a.navbar-item.is-active {
     width: 25%; }
   .columns.is-mobile > .column.is-offset-3 {
     margin-left: 25%; }
-  .columns.is-mobile > .column.is-4 {
-    flex: none;
-    width: 33.33333%; }
   .columns.is-mobile > .column.is-6 {
     flex: none;
     width: 50%; }
-  .columns.is-mobile > .column.is-offset-8 {
-    margin-left: 66.66667%; }
   .columns.is-mobile > .column.is-12 {
     flex: none;
     width: 100%; }
@@ -922,17 +901,16 @@ a.navbar-item:hover, a.navbar-item.is-active {
       width: 25%; }
     .column.is-offset-3 {
       margin-left: 25%; }
-    .column.is-4 {
-      flex: none;
-      width: 33.33333%; }
     .column.is-6 {
       flex: none;
       width: 50%; }
-    .column.is-offset-8 {
-      margin-left: 66.66667%; }
     .column.is-12 {
       flex: none;
       width: 100%; } }
+  @media screen and (min-width: 1024px) {
+    .column.is-one-third-desktop {
+      flex: none;
+      width: 33.3333%; } }
   @media screen and (min-width: 1216px) {
     .column.is-one-quarter-widescreen {
       flex: none;
@@ -985,9 +963,6 @@ a.navbar-item:hover, a.navbar-item.is-active {
     .tile.is-3 {
       flex: none;
       width: 25%; }
-    .tile.is-4 {
-      flex: none;
-      width: 33.33333%; }
     .tile.is-6 {
       flex: none;
       width: 50%; }
