@@ -33,9 +33,6 @@
   </section>
 </template>
 
-
-
-
 <script>
 import shopHero from '~/components/shop/shopHero.vue'
 

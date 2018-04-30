@@ -6,6 +6,18 @@
     <quick-message/>
     <signup-newsletter/>
     <my-bottom/>
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
   </div>
 </template>
 
@@ -26,6 +38,13 @@ export default {
     quickMessage,
     signupNewsletter,
     myBottom
+  },
+  head () {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    }
   }
 }
 </script>
