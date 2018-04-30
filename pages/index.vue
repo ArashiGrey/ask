@@ -6,6 +6,7 @@
     <quick-message/>
     <signup-newsletter/>
     <my-bottom/>
+    <div v-html="scripts"></div>
     <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -17,7 +18,6 @@
     });
   }
 </script>
-
   </div>
 </template>
 
@@ -39,13 +39,9 @@ export default {
     signupNewsletter,
     myBottom
   },
-  head () {
-    return {
-      script: [
-        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
-      ]
-    }
-  }
+    data: () => ({
+    scripts: "<script src='https://identity.netlify.com/v1/netlify-identity-widget.js' ><\/script>"
+  })
 }
 </script>
 
