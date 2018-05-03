@@ -2,7 +2,7 @@
 title: How I chose my color scheme.
 description: Searching, mixing, matching and all the pain to discover the askcreative color palette.
 keywords: "Color, Web Design, Design"
-image: https://res.cloudinary.com/askcreative-space/image/upload/v1520607421/webpostpallette_t3hzxj.png
+image: https://res.cloudinary.com/askcreative-space/image/upload/v1525380894/Optimized-colorpalette_hjr9a5.jpg
 date: 2018-03-10 12:00:00
 categories:
 - webdesign
@@ -11,6 +11,7 @@ tags:
 - colors
 - design
 ---
+![color palette](https://res.cloudinary.com/askcreative-space/image/upload/v1520607421/webpostpallette_t3hzxj.png)
 # How I chose a Color Palatte / Color Scheme
 
 Environmental concerns are a core value of my company. So my website should feature green? I went to [Awwwards](https://www.awwwards.com) and began my search for inspiration. I don't care much for green. Maybe my favorite colors. Grey and lavender. I envisioned my website to be pretty and energetic. I want my brand to feel mature and natural. These were some of my favorite sites and their colors.  

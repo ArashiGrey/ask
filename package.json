@@ -36,6 +36,6 @@
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.5.0",
     "netlify-cms": "^1.7.0",
-    "nuxt-netlify-cms": "^3.0.0"
+    "nuxt-netlify-cms": "^3.0.1"
   }
 }

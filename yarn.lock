@@ -4965,9 +4965,9 @@ nuxt-bulma-slim@^0.3.2:
     purgecss "^0.20.0"
     sass-loader "^6.0.6"
 
-nuxt-netlify-cms@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/nuxt-netlify-cms/-/nuxt-netlify-cms-3.0.0.tgz#1026e7e09c2ff3fdbe388f0fade8c62af00d1d64"
+nuxt-netlify-cms@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/nuxt-netlify-cms/-/nuxt-netlify-cms-3.0.1.tgz#cc902198babf3c5063743a9deef22752d3a964aa"
   dependencies:
     js-yaml "^3.10.0"
     needlepoint "^1.0.5"
