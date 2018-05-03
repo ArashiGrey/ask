@@ -85,6 +85,6 @@ module.exports = {
      */
     loading: {
       color: '#ac3b61',
-      height: '50px'
+      height: '3.5rem'
     }
 }
