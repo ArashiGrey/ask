@@ -2,6 +2,13 @@
   <header>
     <nav class="navbar is-fixed-top">
       <div class="navbar-brand">
+      <a class="navbar-item" href="https://askcreative.space">
+      <img src="logo1.png">
+      <img src="logo2.png">
+      <img src="logo.png">
+      <img src="logo3.png">
+      <img src="logo4.png">
+    </a>
         <div @click="menuIsActive = !menuIsActive" class="navbar-burger burger" data-target="navMenu" v-bind:class="{ 'is-active': menuIsActive }">
           <span></span>
           <span></span>
@@ -38,7 +45,7 @@
 </template>
 
 
-<script>
+<script> 
 export default {
   name: 'myTop',
   data () {
@@ -51,7 +58,7 @@ export default {
 <style scoped>
 header,
 .navbar {
-  background-color: #413e3c;
+  background: linear-gradient(to left, #413e3c, #413e3c 50%, #fefcfb 75%);
 }
 .navbar-dropdown.is-boxed {
   background-color: #d9d5d6;
@@ -84,5 +91,16 @@ header,
 .navbar-burger.burger {
   color:#bab2b5;
   background-color: #ac3b61;
+}
+.navbar-brand {
+  margin-left: 2rem;
+}
+.navbar-brand a:hover {
+  background-color: #bab2b5;
+}
+@media (max-width: 768px){
+  .navbar-brand{
+  margin-left: 1rem;
+}
 }
 </style>
