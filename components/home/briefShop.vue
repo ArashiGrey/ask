@@ -1,37 +1,62 @@
 <template>
   <section class="section is-large">
+
     <brief-shop-hero/>
-    <div class="columns is-tablet is-centered">
-  
-      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+    <div class="columns">
+      <div class="column auto is-hidden-touch">
+      </div>
+      <div class="column">
         <div class="card outer0">
         </div>
       </div>
-      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+      <div class="column">
         <div class="card outer1">
         </div>
       </div>
-      <div class="column is-one-half-tablet is-one-quarter-widescreen">
-        <div class="card outer2">
-        </div>
-      </div>
-      </div>
-       <div class="columns is-tablet is-centered">
-      <div class="column is-one-half-tablet is-one-quarter-widescreen">
-        <div class="card outer3">
-        </div>
-      </div>
-      <div class="column is-one-half-tablet is-one-quarter-widescreen">
-        <div class="card outer4">
-        </div>
-      </div>
-      <div class="column is-one-half-tablet is-one-quarter-widescreen">
-        <div class="card outer5">
-        </div>
+      <div class="column auto is-hidden-touch">
       </div>
     </div>
+
+    <div class="columns righty">
+      <div class="column auto">
+      </div>
+        <div class="column">
+          <div class="card outer2">
+          </div>
+        </div>
+        <div class="column auto">
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column auto is-hidden-touch">
+        </div>
+        <div class="column">
+          <div class="card outer3">
+          </div>
+        </div>
+        <div class="column">
+          <div class="card outer4">
+          </div>
+        </div>
+        <div class="column auto is-hidden-touch">
+        </div>
+
+      </div>
+
+      <div class="columns righty">
+        <div class="column auto">
+        </div>
+        <div class="column">
+          <div class="card outer5">
+          </div>
+        </div>
+        <div class="column auto">
+        </div>
+      </div>
   </section>
 </template>
+
 
 <script>
 import briefShopHero from '~/components/home/briefShopHero.vue'
@@ -63,8 +88,8 @@ export default {
                 rgba(254, 172, 94, .3) 150px,
                  rgba(199, 121, 208, .3) 200px,
                   rgba(75, 192, 200, .3) 250px);
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: 1px #171412 solid;
 }
 .outer1 {
@@ -84,8 +109,8 @@ export default {
            rgba(245, 64, 2, 1) 150px,
             rgba(199, 121, 208, .3) 200px,
              rgba(75, 192, 200, .3) 250px);
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: 1px #171412 solid;
 }
 .outer2 {
@@ -105,8 +130,8 @@ export default {
            rgba(254, 172, 94, .2) 150px,
             rgba(255, 241, 54, 1) 200px,
              rgba(75, 192, 200, .3) 250px);
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: 1px #171412 solid;
 }
 .outer3 {
@@ -126,8 +151,8 @@ export default {
                rgba(199, 121, 208, .3) 200px,
                 rgba(62, 149, 35, 1) 250px);
  
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: 1px #171412 solid;
 }
 .outer4 {
@@ -147,8 +172,8 @@ export default {
                rgba(199, 121, 208, .3) 200px,
                 rgba(75, 192, 200, .3) 250px);
  
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: 1px #171412 solid;
 }
 .outer5 {
@@ -168,12 +193,20 @@ export default {
                rgba(172, 59, 97, 1) 200px,
                 rgba(75, 192, 200, .3) 250px);
  
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   border: 1px #171412 solid;
 }
 .card {
   background-color: #f6f6f6;
   box-shadow: 0 3px 4px rgba(106, 130, 251, .2), 0 0 0 2px rgba(106, 130, 251, .2);
+}
+.columns.righty {
+  margin-left: 5vw;
+}
+@media (max-width: 1399px){
+  .columns.righty {
+    margin-left: 0;
+  }
 }
 </style>

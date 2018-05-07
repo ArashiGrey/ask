@@ -119,11 +119,24 @@ export default {
     float: none;
   }
   .column {
-    margin: none;
+    margin: 0 0 10vw 0;
   }
-.shorten {
-  max-width: 300px;
+  .column.slimmed {
+    padding: 0;
+    margin: 0;
+  }
+  .card {
+	max-width: 75vw;
 }
+}
+@media (max-width: 1199px){
+  .columns {
+    display: block;
+    margin-left: 10vw;
+  }
+  .outer {
+    float: none;
+  }
   .column.slimmed {
     padding: 0;
     margin: 0;

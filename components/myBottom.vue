@@ -251,4 +251,10 @@ p.leveled {
   font-size: 0.75rem;
 }
 }
+@media (min-width: 799px) and (max-width: 1150px){
+  .tile.is-ancestor {
+  display: block;
+  margin-left: 40vw;
+}
+}
 </style>

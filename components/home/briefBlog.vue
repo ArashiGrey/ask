@@ -94,4 +94,9 @@ p {
     padding: .5rem;
   }
 }
+@media (max-width: 1199px){
+  .columns {
+    display: block;
+  }
+}
 </style>
