@@ -1,7 +1,7 @@
 <template>
   <section class="section is-large">
     <div class="container">
-      <div class="columns is-variable is-8">
+      <div class="columns is-desktop is-variable is-8">
         <div class="column words">
           <p class="title is-size-3">Visit my blog.
             <br>
@@ -85,5 +85,13 @@ p {
 }
 .words {
   min-width: 500px;
+}
+@media (max-width: 799px){
+  .words {
+  min-width: 300px;
+}
+  p {
+    padding: .5rem;
+  }
 }
 </style>

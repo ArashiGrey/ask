@@ -20,7 +20,7 @@
                   </svg>
                 </div>
                 <div class="level-item">
-                  <p>
+                  <p class="leveled">
                     <b>
                       <i>Address:</i>
                     </b>
@@ -48,7 +48,7 @@
                     </svg>
                   </div>
                   <div class="level-item">
-                    <p>
+                    <p class="leveled">
                       <b>
                         <i>Telephone:</i>
                       </b>
@@ -70,7 +70,7 @@
                     </svg>
                   </div>
                   <div class="level-item">
-                    <p>
+                    <p class="leveled">
                       <b>
                         <i>eMail:</i>
                       </b>
@@ -94,7 +94,7 @@
                     </svg>
                   </div>
                   <div class="level-item">
-                    <p>
+                    <p class="leveled">
                       <b>
                         <i>KvK
                         </i>
@@ -119,7 +119,7 @@
                     </svg>
                   </div>
                   <div class="level-item">
-                    <p>
+                    <p class="leveled">
                       <b>
                         <i>VAT
                         </i>
@@ -149,7 +149,7 @@
                   </svg>
                 </div>
                 <div class="level-item">
-                  <p>
+                  <p class="leveled">
                     <b>
                       <i>Information:
                       </i>
@@ -197,6 +197,7 @@
 
 
 <script>
+
   export default {
     name: 'myBottom',
     data: () => ({
@@ -244,5 +245,10 @@ a {
 a.bottoma:hover {
   color: #d9d5d6;
   background-color: #ac3b61;
+}
+@media (max-width: 1399px){
+p.leveled {
+  font-size: 0.75rem;
+}
 }
 </style>

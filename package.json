@@ -26,7 +26,8 @@
     "nuxtent": "^1.4.1",
     "prismjs": "^1.14.0",
     "sass-loader": "^7.0.1",
-    "vee-validate": "^2.0.8"
+    "vee-validate": "^2.0.8",
+    "vue-scrollto": "^2.11.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

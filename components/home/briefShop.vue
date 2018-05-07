@@ -1,90 +1,46 @@
 <template>
   <section class="section is-large">
-      <span><h1 class="title">
-       A Few Featured Products
-      </h1>
-      <h2 class="subtitle">
-        Coming Soon!
-      </h2></span>
-    <div class="columns is-centered is-multiline">
-      <div class="column">
- <div class="card outer0">
-              </div>
-          </div>
-      <div class="column">
- <div class="card outer1">
-            <div class="card-image">
-              <figure class="image is-square">       
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">            
-              </div>
-              <div class="content">
-                <h2 class="title"></h2>        
-              </div>
-            </div>
-              </div>
-          </div>
-                <div class="column">
- <div class="card outer2">
-            <div class="card-image">
-              <figure class="image is-square">       
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">            
-              </div>
-              <div class="content">
-                <h2 class="title"></h2>        
-              </div>
-            </div>
-          </div>
-           </div>
-                <div class="column">
- <div class="card outer3">
-            <div class="card-image">
-              <figure class="image is-square">       
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">            
-              </div>
-              <div class="content">
-                <h2 class="title"></h2>        
-              </div>
-            </div>
-          </div>
-          </div>
-                <div class="column">
- <div class="card outer4">
-            <div class="card-image">
-              <figure class="image is-square">       
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">            
-              </div>
-              <div class="content">
-                <h2 class="title"></h2>        
-              </div>
-            </div>
-          </div>
-            </div>
-                  <div class="column">
- <div class="card outer5">
-
-            </div>
-              </div>
-          </div>
-      
-
+    <brief-shop-hero/>
+    <div class="columns is-tablet is-centered">
+  
+      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+        <div class="card outer0">
+        </div>
+      </div>
+      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+        <div class="card outer1">
+        </div>
+      </div>
+      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+        <div class="card outer2">
+        </div>
+      </div>
+      </div>
+       <div class="columns is-tablet is-centered">
+      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+        <div class="card outer3">
+        </div>
+      </div>
+      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+        <div class="card outer4">
+        </div>
+      </div>
+      <div class="column is-one-half-tablet is-one-quarter-widescreen">
+        <div class="card outer5">
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
+import briefShopHero from '~/components/home/briefShopHero.vue'
+
 export default {
-  name: 'briefShop'
+  name: 'briefShop',
+    components: {
+    briefShopHero,
+}
 }
 </script>
 
@@ -111,7 +67,6 @@ export default {
   width: 400px;
   border: 1px #171412 solid;
 }
-
 .outer1 {
   background-image: repeating-linear-gradient(190deg, rgba(252, 92, 125, .3) 40px,
    rgba(106, 130, 251, .2) 80px,
@@ -155,7 +110,6 @@ export default {
   border: 1px #171412 solid;
 }
 .outer3 {
-  float: right;
   background-image: repeating-linear-gradient(190deg, rgba(252, 92, 125, .3) 40px,
    rgba(106, 130, 251, .2) 80px,
     rgba(254, 172, 94, .2) 120px,
@@ -175,10 +129,8 @@ export default {
   height: 400px;
   width: 400px;
   border: 1px #171412 solid;
-  margin: 1rem;
 }
 .outer4 {
-  float: right;
   background-image: repeating-linear-gradient(190deg, rgba(252, 92, 125, .3) 40px,
    rgba(51, 108, 164, 1) 80px,
     rgba(254, 172, 94, .2) 120px,
@@ -198,10 +150,8 @@ export default {
   height: 400px;
   width: 400px;
   border: 1px #171412 solid;
-  margin: 1rem;
 }
 .outer5 {
-  float: right;
   background-image: repeating-linear-gradient(190deg, rgba(252, 92, 125, .3) 40px,
     rgba(106, 130, 251, .2)80px,
     rgba(254, 172, 94, .2) 120px,
@@ -221,15 +171,9 @@ export default {
   height: 400px;
   width: 400px;
   border: 1px #171412 solid;
-  margin: 1rem;
 }
 .card {
   background-color: #f6f6f6;
   box-shadow: 0 3px 4px rgba(106, 130, 251, .2), 0 0 0 2px rgba(106, 130, 251, .2);
 }
-span {
-  text-align: center;
-  margin: 5rem;
-}
-
 </style>

@@ -1,7 +1,7 @@
 <template>
   <section class="section is-large">
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-desktop">
+      <div class="column slimmed">
         <div class="outer">
           <div class="inner">
             <img class="upper" src="https://res.cloudinary.com/askcreative-space/image/upload/h_250,c_fit/AmyCVpic_ocwe7o.jpg">
@@ -9,8 +9,8 @@
         </div>
       </div>
       <div class="column shorten">
-        <div class="card lower">
-          <div class="card-content">
+ 
+          <div class="card">
             <blockquote>
             <p class="title serif">
               "Reduce, Reuse, Recycle, Research, Repurpose, Repair &amp; Rent;
@@ -31,7 +31,7 @@
             <p class="subtitle">
               The 7 R's of Fashion
             </p>
-          </div>
+        
         </div>
       </div>
       <div class="column">
@@ -107,8 +107,9 @@ export default {
 	box-shadow: 0 3px 4px rgba(106, 130, 251, .2), 0 0 0 2px rgba(106, 130, 251, .2);
 }
 
-.shorten {
+.column.shorten {
   max-width: 500px;
+  margin-top: 50px;
 }
 .column {
   margin: 1rem;
@@ -120,5 +121,13 @@ export default {
   .column {
     margin: none;
   }
+.shorten {
+  max-width: 300px;
 }
+  .column.slimmed {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 </style>
