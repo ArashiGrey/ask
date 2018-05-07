@@ -82,7 +82,7 @@
               </a>
             
           </div>
-            <div class="column">
+              <div class="column">
         </div>
          </div>
   </section>
