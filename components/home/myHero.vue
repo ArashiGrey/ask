@@ -2,7 +2,7 @@
   <div class="hero is-fullheight">
   <div class="hero-body">
     <div class="container">
-      <img class="logo" src="~assets/img/logo.png" alt="A cat peeking through a capital A.">
+      <img class="logo" src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_120/v1516458790/logo_rsdvyu.png" alt="A cat peeking through a capital A.">
       <h1 class="title big-size">
         Amy Storm Kosman
       </h1>
@@ -53,7 +53,7 @@ h1 {
                #d9d5d6 0 0 5px;
 }
 .logo {
-  margin-left: 10vw;  
+  margin-left: 1vw;  
   width: 120px;
   display: inline-block;
 }

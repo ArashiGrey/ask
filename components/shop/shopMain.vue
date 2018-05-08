@@ -15,7 +15,7 @@
         <div class="tile is-3 is-vertical is-parent">
           <div class="tile is-child box hello">
             <Card url="/shop/scarfs">
-              <img src="~assets/img/frame.png" alt="About" slot="image" />
+              <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="About" slot="image" />
               <h2>
                 Scarfs
               </h2>
@@ -25,7 +25,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/home">
-              <img src="~assets/img/frame.png" alt="Shop" slot="image" />
+              <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Shop" slot="image" />
               <h2>
                 Home
               </h2>
@@ -39,7 +39,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/bags">
-              <img src="~assets/img/frame.png" alt="Gallery" slot="image" />
+              <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Gallery" slot="image" />
               <h2>
                 Bags
               </h2>
@@ -49,7 +49,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/jewelry">
-              <img src="~assets/img/frame.png" alt="Shop" slot="image" />
+              <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Shop" slot="image" />
               <h2>
                 Jewelry
               </h2>
@@ -59,7 +59,7 @@
         <div class="tile is-3 is-vertical is-parent">
           <div class="tile is-child box hello">
             <card url="/shop/hair">
-              <img src="~assets/img/frame.png" alt="Blog" slot="image" />
+              <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Blog" slot="image" />
               <h2>
                 Hair
               </h2>
@@ -69,7 +69,7 @@
           </div>
           <div class="tile is-child box hello">
             <card url="/shop/belts">
-              <img src="~assets/img/frame.png" alt="Contact" slot="image" />
+              <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Contact" slot="image" />
               <h2>
                 Belts
               </h2>

@@ -23,7 +23,7 @@
       <div class="tile is-3 is-vertical is-parent">
         <div class="tile is-child box hello">
           <Card url="/about">
-            <img src="~assets/img/frame.png" alt="About" slot="image"/>
+            <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="About" slot="image"/>
               <h2>About</h2>
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -35,7 +35,7 @@
         </div>
         <div class="tile is-child box hello">
           <card url="/shop">
-            <img src="~assets/img/frame.png" alt="Shop" slot="image"/>
+            <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Shop" slot="image"/>
               Shop
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -50,7 +50,7 @@
         </div>
         <div class="tile is-child box hello">
           <card url="/gallery">
-            <img src="~assets/img/frame.png" alt="Gallery" slot="image"/>
+            <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Gallery" slot="image"/>
               Gallery
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -68,7 +68,7 @@
       <div class="tile is-3 is-vertical is-parent">
         <div class="tile is-child box hello">
           <card url="/blog">
-            <img src="~assets/img/frame.png" alt="Blog" slot="image"/>
+            <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Blog" slot="image"/>
               Blog
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">
@@ -81,7 +81,7 @@
         </div>
         <div class="tile is-child box hello">
           <card url="/contact">
-            <img src="~assets/img/frame.png" alt="Contact" slot="image"/>
+            <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_268/v1516458795/frame_k9gikr.png" alt="Contact" slot="image"/>
               Contact
               <hr>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 20 20">

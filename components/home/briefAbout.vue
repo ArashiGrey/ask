@@ -4,7 +4,7 @@
       <div class="column slimmed">
         <div class="outer">
           <div class="inner">
-            <img class="upper" src="https://res.cloudinary.com/askcreative-space/image/upload/h_250,c_fit/AmyCVpic_ocwe7o.jpg">
+            <img class="upper" src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_212/v1516458719/AmyCVpic_cefmu7.jpg">
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
       <a class="navbar-item" href="https://askcreative.space">
       <img src="logo1.png">
       <img src="logo2.png">
-      <img src="logo.png">
+      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_120/v1516458790/logo_rsdvyu.png">
       <img src="logo3.png">
       <img src="logo4.png">
     </a>
