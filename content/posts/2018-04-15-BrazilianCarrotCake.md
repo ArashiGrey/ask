@@ -2,7 +2,7 @@
 title: Bolo de Cenoura Brazilian Carrot Cake
 description: An easy delicious carrot cake with chocolate frosting.
 keywords: "Baking, Eats, Lekker"
-image: https://res.cloudinary.com/askcreative-space/image/upload/v1525380885/Optimized-brazcake_cgrxrp.jpg
+image: https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1525380885/Optimized-brazcake_cgrxrp.jpg
 date: 2018-04-15 12:00:00
 categories:
 - baking
@@ -12,6 +12,7 @@ tags:
 - chocolate
 - carrots
 ---
+![Brazilian Carrot Cake](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1525380885/Optimized-brazcake_cgrxrp.jpg)
 # Bolo de Cenoura (Brazilian Carrot Cake)
 
 Simply Ina posted a recipe for this awesome carrot cake [here](https://simplyina.com/brazilian-carrot-cake-bolo-de-cenoura-traditional-recipe/)
@@ -63,8 +64,8 @@ I made a couple modifications. I don't have a blender so I grated the carrots. I
     with a spatula.
  4. Slice and serve.
 
-![picture of cake from the side](https://res.cloudinary.com/askcreative-space/image/upload/v1523815188/Optimized-braziliancarrotcake3_kmeenb.jpg)
+![picture of cake from the side](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1523815188/Optimized-braziliancarrotcake3_kmeenb.jpg)
 
-![picture of cake from above](https://res.cloudinary.com/askcreative-space/image/upload/v1523815188/Optimized-braziliancarrotcake2_iqnrad.jpg)
+![picture of cake from above](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1523815188/Optimized-braziliancarrotcake2_iqnrad.jpg)
 
-![close up picture of cake slice](https://res.cloudinary.com/askcreative-space/image/upload/v1523815266/Optimized-braziliancarrotcake1_b5o7sf.jpg)
+![close up picture of cake slice](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1523815266/Optimized-braziliancarrotcake1_b5o7sf.jpg)

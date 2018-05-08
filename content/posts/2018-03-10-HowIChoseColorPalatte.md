@@ -2,7 +2,7 @@
 title: How I chose my color scheme.
 description: Searching, mixing, matching and all the pain to discover the askcreative color palette.
 keywords: "Color, Web Design, Design"
-image: https://res.cloudinary.com/askcreative-space/image/upload/v1525380894/Optimized-colorpalette_hjr9a5.jpg
+image: https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1525380894/Optimized-colorpalette_hjr9a5.jpg
 date: 2018-03-10 12:00:00
 categories:
 - webdesign
@@ -11,7 +11,7 @@ tags:
 - colors
 - design
 ---
-![color palette](https://res.cloudinary.com/askcreative-space/image/upload/v1520607421/webpostpallette_t3hzxj.png)
+![color palette](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1520607421/webpostpallette_t3hzxj.png)
 # How I chose a Color Palatte / Color Scheme
 
 Environmental concerns are a core value of my company. So my website should feature green? I went to [Awwwards](https://www.awwwards.com) and began my search for inspiration. I don't care much for green. Maybe my favorite colors. Grey and lavender. I envisioned my website to be pretty and energetic. I want my brand to feel mature and natural. These were some of my favorite sites and their colors.  
@@ -19,28 +19,28 @@ Environmental concerns are a core value of my company. So my website should feat
 ## Finding Inspiration
 
 ### [Envy Labs](https://envylabs.com)
-![](https://res.cloudinary.com/askcreative-space/image/upload/v1524385718/envy_zwi3hg.png)
+![](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1524385718/envy_zwi3hg.png)
 
 ### [Color Theory](http://www.colortheory.ca)
-![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607429/Screenshot-2018-3-9_Color_Theory_gltixa.jpg)
+![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto,w_850/v1520607429/Screenshot-2018-3-9_Color_Theory_gltixa.jpg)
  
 ### [Wijn Doekje](http://www.wijndoekje.nl)
-![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607467/Screenshot-2018-3-9_Wijndoekje_-_Voor_een_lach_zonder_wijnaanslag_clseiq.png)
+![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto,w_850/v1520607467/Screenshot-2018-3-9_Wijndoekje_-_Voor_een_lach_zonder_wijnaanslag_clseiq.png)
 
 ### [Le Col de Claudine](http://www.lecoldeclaudine.com/fr)
-![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607455/Screenshot-2018-3-9_Le_Col_de_Claudine_-_Home_qhxpj1.jpg)
+![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto,w_850/v1520607455/Screenshot-2018-3-9_Le_Col_de_Claudine_-_Home_qhxpj1.jpg)
 
 ### [Living Form](http://living-form.com)
-![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607448/Screenshot-2018-3-9_Home_Living_Form_sgsj2c.png)
+![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto,w_850/v1520607448/Screenshot-2018-3-9_Home_Living_Form_sgsj2c.png)
 
 ### [October](https://oct.co/essays)
-![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,w_850/v1520607440/Screenshot-2018-3-9_Essays_on_Beer_qu0w9s.jpg)
+![Screenshot of website](https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto,w_850/v1520607440/Screenshot-2018-3-9_Essays_on_Beer_qu0w9s.jpg)
  
 ### [NJI3](https://nji3.com/ivana-pi)
-![](https://res.cloudinary.com/askcreative-space/image/upload/v1524385713/nji3_psosst.png)
+![](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1524385713/nji3_psosst.png)
   
 ### [Bashful Creative Agency](http://bashful.com/au)
-![](https://res.cloudinary.com/askcreative-space/image/upload/v1524385708/bashful_riakvu.png)
+![](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1524385708/bashful_riakvu.png)
   
 I loved the dark backgrounds. Especially the dark browns. Color theory in web design says to avoid too much black and white. They're too harsh. #1D1D1D instead of #000. Pink looks good with brown, but so does blue. Blue felt a bit boring. It didn't excite me. I wanted something more vibrant. Reds are vibrant but too urgent. I put to work some of my favorite color scheme tools.
 
