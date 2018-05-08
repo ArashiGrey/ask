@@ -3,11 +3,11 @@
     <nav class="navbar is-fixed-top">
       <div class="navbar-brand">
       <a class="navbar-item" href="https://askcreative.space">
-      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_128/v1516458784/logo1_uebvvs.png">
-      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_128/v1516458778/logo2_xnne7r.png">
-      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_120/v1516458790/logo_rsdvyu.png">
-      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_128/v1516458764/logo3_d5xlr9.png">
-      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_128/v1516458759/logo4_s2msgg.png">
+      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_28/v1516458784/logo1_uebvvs.png">
+      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_28/v1516458778/logo2_xnne7r.png">
+      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_28/v1516458790/logo_rsdvyu.png">
+      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_28/v1516458764/logo3_d5xlr9.png">
+      <img src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_28/v1516458759/logo4_s2msgg.png">
     </a>
         <div @click="menuIsActive = !menuIsActive" class="navbar-burger burger" data-target="navMenu" v-bind:class="{ 'is-active': menuIsActive }">
           <span></span>

@@ -139,35 +139,35 @@ img {
 .kitty0:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/img/logo-pattern.png);
+  url('https://res.cloudinary.com/askcreative-space/image/upload/f_auto/v1516458735/logo-pattern_ksghvm.png');
   background-size: 5%;
   color: transparent;
 } 
 .kitty1:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/img/logo1.png);
+  url('https://res.cloudinary.com/askcreative-space/image/upload/f_auto/v1516458784/logo1_uebvvs.png');
   background-size: 85%;
   color: transparent;
 } 
 .kitty2:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/img/logo2.png);
+  url('https://res.cloudinary.com/askcreative-space/image/upload/f_auto/v1516458778/logo2_xnne7r.png');
   background-size: 55%;
   color: transparent;
 }
 .kitty3:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/img/logo3.png);
+  url('https://res.cloudinary.com/askcreative-space/image/upload/f_auto/v1516458764/logo3_d5xlr9.png');
   background-size: 55%;
   color: transparent;
 }
 .kitty4:hover {
   transition: 2s ease-in-out;
   background-image: linear-gradient(to bottom, rgba(231, 151, 178, 0.5), rgba(108, 7, 41, 0.5)),
-  url(~assets/img/logo4.png);
+  url('https://res.cloudinary.com/askcreative-space/image/upload/f_auto/v1516458759/logo4_s2msgg.png');
   background-size: 85%;
   color: transparent;
 }
