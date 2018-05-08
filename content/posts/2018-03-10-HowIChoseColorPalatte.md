@@ -2,7 +2,7 @@
 title: How I chose my color scheme.
 description: Searching, mixing, matching and all the pain to discover the askcreative color palette.
 keywords: "Color, Web Design, Design"
-image: https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1525380894/Optimized-colorpalette_hjr9a5.jpg
+image: https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto,w_193/v1525380894/Optimized-colorpalette_hjr9a5.jpg
 date: 2018-03-10 12:00:00
 categories:
 - webdesign

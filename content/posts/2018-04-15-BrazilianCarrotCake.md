@@ -2,7 +2,7 @@
 title: Bolo de Cenoura Brazilian Carrot Cake
 description: An easy delicious carrot cake with chocolate frosting.
 keywords: "Baking, Eats, Lekker"
-image: https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1525380885/Optimized-brazcake_cgrxrp.jpg
+image: https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto,w_193/v1525380885/Optimized-brazcake_cgrxrp.jpg
 date: 2018-04-15 12:00:00
 categories:
 - baking
