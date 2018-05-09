@@ -5,7 +5,7 @@ module.exports = {
      ** Headers of the page
      */
     head: {
-      title: 'ask',
+      title: 'Amy Storm Kosman creative designer and maker.',
       meta: [{
           charset: 'utf-8'
         },
@@ -16,7 +16,7 @@ module.exports = {
         {
           hid: 'description',
           name: 'description',
-          content: 'The official website of Amy Storm Kosman creative'
+          content: 'The official website of artist, designer, and maker Amy Storm Kosman creative. Recycle, reuse, repurpose, mottainai, upcycled slow fashion from vintage fabrics.  Handmade bespoke hair accessories, jewelry, scarfs, handbags, and home decor.'
         },
         {
           name: 'application-name',

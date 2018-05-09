@@ -5,12 +5,12 @@ keywords: "Baking, Eats, Lekker"
 image: https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto/v1525380885/Optimized-brazcake_cgrxrp.jpg
 date: 2018-04-15 12:00:00
 categories:
-- baking
 - eats
 tags:
 - lekker
 - chocolate
 - carrots
+- baking
 ---
 ![Brazilian Carrot Cake](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1525380885/Optimized-brazcake_cgrxrp.jpg)
 # Bolo de Cenoura (Brazilian Carrot Cake)

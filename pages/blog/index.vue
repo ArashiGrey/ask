@@ -6,7 +6,7 @@
         <nuxt-link :to="post.permalink">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-square">
+              <figure class="image">
                <img v-if="post.image" v-bind:src="post.image" />
               </figure>
             </div>
@@ -43,9 +43,9 @@ export default {
   },
   head () {
     return {
-      title: 'A.S.K.c blog',
+      title: 'A.S.K.c Blog',
       meta: [
-        { hid: 'description', name: 'description', content: 'Boring stuff.' }
+        { hid: 'description', name: 'description', content: 'The official Amy Storm Kosman creative blog. Filled with all my boring lifestyle, food, music, recycle, reuse, repurpose, mottainai, upcycled slow fashion, handmade, bespoke, hair accessories, jewelry, scarfs, handbags, and home decor stories. Some interesting things as well. ' }
       ]
     }
   },

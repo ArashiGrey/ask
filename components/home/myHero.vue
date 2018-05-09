@@ -47,14 +47,15 @@ h1 {
 }
 .title,
 .subtitle {
-  margin-left: 10vw;
+  margin-left: 12vw;
   color: #ac3b61;
   text-shadow: #171412 2px 2px 1px,
                #d9d5d6 0 0 5px;
 }
-.logo {
-  margin-left: 1vw;  
+.logo { 
+  margin-left: 12vw;
   width: 120px;
   display: inline-block;
 }
+
 </style>

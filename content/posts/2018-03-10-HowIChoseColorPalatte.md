@@ -5,11 +5,10 @@ keywords: "Color, Web Design, Design"
 image: https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_auto/v1525380894/Optimized-colorpalette_hjr9a5.jpg
 date: 2018-03-10 12:00:00
 categories:
-- webdesign
 - design
 tags:
 - colors
-- design
+- webdesign
 ---
 ![color palette](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1520607421/webpostpallette_t3hzxj.png)
 # How I chose a Color Palatte / Color Scheme
@@ -39,7 +38,7 @@ Environmental concerns are a core value of my company. So my website should feat
 ### [NJI3](https://nji3.com/ivana-pi)
 ![](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1524385713/nji3_psosst.png)
   
-### [Bashful Creative Agency](http://bashful.com/au)
+### [Bashful Creative Agency](http://bashful.com.au)
 ![](https://res.cloudinary.com/askcreative-space/image/upload/f_auto,q_auto/v1524385708/bashful_riakvu.png)
   
 I loved the dark backgrounds. Especially the dark browns. Color theory in web design says to avoid too much black and white. They're too harsh. #1D1D1D instead of #000. Pink looks good with brown, but so does blue. Blue felt a bit boring. It didn't excite me. I wanted something more vibrant. Reds are vibrant but too urgent. I put to work some of my favorite color scheme tools.

@@ -29,7 +29,7 @@ export default {
     return {
       title: 'A.S.K.c Contact',
       meta: [
-        { hid: 'description', name: 'description', content: 'All the information needed to contact Amy and Amy Storm Kosman creative.' }
+        { hid: 'description', name: 'description', content: 'All the information needed to contact Amy and Amy Storm Kosman creative. email, phone number, address' }
       ]
     }
   }

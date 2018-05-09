@@ -34,6 +34,21 @@ export default {
     return {
       infos: await app.$content('/infos').getAll()
     }
+  },
+    head() {
+    return {
+      title: 'A.S.K.c Information',
+      meta: [{
+        hid: 'description',
+        name: 'description',
+        content: 'Information, faqs, terms, policies of Amy Storm Kosman creative.'
+      }],
+      link: [
+        { rel:'dns-prefetch', href:'//images-cdn.ecwid.com/' },
+        { rel:'dns-prefetch', href:'//images.ecwid.com/' },
+        { rel:'dns-prefetch', href:'//app.ecwid.com/' }
+      ]
+    }
   }
 }
 </script>

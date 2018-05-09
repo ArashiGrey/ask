@@ -48,7 +48,7 @@ export default {
       meta: [{
         hid: 'description',
         name: 'description',
-        content: 'A place to buy all things Amy Storm Kosman creative.'
+        content: 'A place to buy all things Amy Storm Kosman creative. Recycle, reuse, repurpose, mottainai, upcycled slow fashion from vintage fabrics.  Handmade bespoke hair accessories, jewelry, scarfs, handbags, and home decor.'
       }],
       link: [
         { rel:'dns-prefetch', href:'//images-cdn.ecwid.com/' },
