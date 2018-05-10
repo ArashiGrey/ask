@@ -18,7 +18,7 @@
               <div class="item">
                 <div class="outer">
                   <div class="inner">
-                    <img class="upper" src="http://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_70,w_250/v1525612002/librariansnow_pjzhdk.jpg">
+                    <img class="upper" src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,q_70,w_250/v1525612002/librariansnow_pjzhdk.jpg">
                   </div>
                 </div>
                 <p class="is-size-4 serif">

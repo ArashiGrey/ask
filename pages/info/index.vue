@@ -9,10 +9,6 @@
         </nuxt-link>
         <br>
         </div>
-        <nuxt-link to="/info/cookies">
-        <h2 class="title">Cookie Policy</h2>
-        </nuxt-link>
-        <br>
       </div>
     </div>
   </section>
@@ -41,7 +37,7 @@ export default {
       meta: [{
         hid: 'description',
         name: 'description',
-        content: 'Information, faqs, terms, policies of Amy Storm Kosman creative.'
+        content: 'Information, faqs, terms, and policies of Amy Storm Kosman creative.'
       }],
       link: [
         { rel:'dns-prefetch', href:'//images-cdn.ecwid.com/' },

@@ -5,7 +5,8 @@
         <img class="logo" src="https://res.cloudinary.com/askcreative-space/image/upload/c_scale,f_auto,w_120/v1516458790/logo_rsdvyu.png" alt="A cat peeking through a capital A.">
         <h5> Amy Storm Kosman creative</h5>
         <hr class='low'>
-      </div>
+          <follow-me-bottom/>
+          </div>
       <div class="tile is-ancestor">
         <div class="tile is-2">
         </div>
@@ -197,8 +198,12 @@
 
 
 <script>
+import followMeBottom from '~/components/followMeBottom.vue'
 
   export default {
+    components: {
+      followMeBottom
+    },
     name: 'myBottom',
     data: () => ({
       scripts: "<script src='https://optanon.blob.core.windows.net/langswitch/4cd12a2f-e766-4409-87f0-920309524863.js' type='text/javascript' charset='UTF-8'><\/script><script type='text/javascript'> function OptanonWrapper() { }<\/script>"
